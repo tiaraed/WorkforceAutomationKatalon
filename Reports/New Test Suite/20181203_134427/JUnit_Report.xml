@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="28" tests="3" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="3" failures="0" errors="0" time="28" timestamp="2018-12-03 13:44:29" hostname="Administrator - 172.25.138.232" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\ASYST\\project\\ads workforce\\katalon\\Workforce Management\\Reports\\New Test Suite\\20181203_134427"/>
+         <property name="logFiles" value="D:\\ASYST\\project\\ads workforce\\katalon\\Workforce Management\\Reports\\New Test Suite\\20181203_134427\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - 172.25.138.232"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="172.25.138.232"/>
+         <property name="sessionId" value="bcd45ecf1b068fe8016d39ce940df4a7"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Base Data - Group/06 Filter Pagination/39 Filter Number of Page" classname="Test Cases/Base Data - Group/06 Filter Pagination/39 Filter Number of Page" status="PASSED">
+         <system-out><![CDATA[2018-12-03 13:44:29 - [TEST_CASE][PASSED] - Test Cases/Base Data - Group/06 Filter Pagination/39 Filter Number of Page: Test Cases/Base Data - Group/06 Filter Pagination/39 Filter Number of Page
+
+2018-12-03 13:44:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-03 13:44:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-03 13:44:30 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-03 13:44:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-03 13:44:34 - [TEST_STEP][PASSED] - navigateToUrl("http://ads.asyst.co.id/login.html"): Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-03 13:44:37 - [MESSAGE][PASSED] - Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-03 13:44:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Asyst Workforce asd/input_Email_inp_lgn_email"), "haris.ilham"): Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-03 13:44:38 - [MESSAGE][PASSED] - Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-03 13:44:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Asyst Workforce asd/input_Password_inp_lgn_passwor"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-03 13:44:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-03 13:44:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_Asyst Workforce asd/button_Login")): Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-03 13:44:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-03 13:44:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/span_Base Data (2)")): Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data (2)' is clicked on
+
+2018-12-03 13:44:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data (2)' is clicked on
+
+2018-12-03 13:44:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_WorkForce Management System As/span_Employee"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-03 13:44:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-03 13:44:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/span_Employee")): Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-03 13:44:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-03 13:44:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_WorkForce Management System As/span_Group"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Group' is visible
+
+2018-12-03 13:44:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Group' is visible
+
+2018-12-03 13:44:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Group")): Object: 'Object Repository/Page_WorkForce Management System As/span_Group' is clicked on
+
+2018-12-03 13:44:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Group' is clicked on
+
+2018-12-03 13:44:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/a_2 grp")): Object: 'Object Repository/Page_WorkForce Management System As/a_2 grp' is clicked on
+
+2018-12-03 13:44:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/a_2 grp' is clicked on
+
+2018-12-03 13:44:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-03 13:44:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Base Data - Group/06 Filter Pagination/40 Filter Next Navigation" classname="Test Cases/Base Data - Group/06 Filter Pagination/40 Filter Next Navigation" status="PASSED">
+         <system-out><![CDATA[2018-12-03 13:44:41 - [TEST_CASE][PASSED] - Test Cases/Base Data - Group/06 Filter Pagination/40 Filter Next Navigation: Test Cases/Base Data - Group/06 Filter Pagination/40 Filter Next Navigation
+
+2018-12-03 13:44:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-03 13:44:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-03 13:44:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-03 13:44:43 - [TEST_STEP][PASSED] - navigateToUrl("http://ads.asyst.co.id/login.html"): Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-03 13:44:46 - [MESSAGE][PASSED] - Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-03 13:44:46 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Asyst Workforce asd/input_Email_inp_lgn_email"), "haris.ilham"): Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-03 13:44:46 - [MESSAGE][PASSED] - Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-03 13:44:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Asyst Workforce asd/input_Password_inp_lgn_passwor"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-03 13:44:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-03 13:44:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_Asyst Workforce asd/button_Login")): Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-03 13:44:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-03 13:44:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/span_Base Data (2)")): Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data (2)' is clicked on
+
+2018-12-03 13:44:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data (2)' is clicked on
+
+2018-12-03 13:44:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_WorkForce Management System As/span_Employee"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-03 13:44:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-03 13:44:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/span_Employee")): Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-03 13:44:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-03 13:44:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_WorkForce Management System As/span_Group"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Group' is visible
+
+2018-12-03 13:44:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Group' is visible
+
+2018-12-03 13:44:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Group")): Object: 'Object Repository/Page_WorkForce Management System As/span_Group' is clicked on
+
+2018-12-03 13:44:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Group' is clicked on
+
+2018-12-03 13:44:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/a_Page 1 of 2_lnk_emp_group_ne")): Object: 'Object Repository/Page_WorkForce Management System As/a_Page 1 of 2_lnk_emp_group_ne' is clicked on
+
+2018-12-03 13:44:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/a_Page 1 of 2_lnk_emp_group_ne' is clicked on
+
+2018-12-03 13:44:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-03 13:44:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Base Data - Group/06 Filter Pagination/41 Filter Previous Navigation" classname="Test Cases/Base Data - Group/06 Filter Pagination/41 Filter Previous Navigation" status="PASSED">
+         <system-out><![CDATA[2018-12-03 13:44:50 - [TEST_CASE][PASSED] - Test Cases/Base Data - Group/06 Filter Pagination/41 Filter Previous Navigation: Test Cases/Base Data - Group/06 Filter Pagination/41 Filter Previous Navigation
+
+2018-12-03 13:44:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-03 13:44:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-03 13:44:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-03 13:44:52 - [TEST_STEP][PASSED] - navigateToUrl("http://ads.asyst.co.id/login.html"): Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-03 13:44:54 - [MESSAGE][PASSED] - Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-03 13:44:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Asyst Workforce asd/input_Email_inp_lgn_email"), "haris.ilham"): Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-03 13:44:54 - [MESSAGE][PASSED] - Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-03 13:44:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Asyst Workforce asd/input_Password_inp_lgn_passwor"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-03 13:44:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-03 13:44:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_Asyst Workforce asd/button_Login")): Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-03 13:44:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-03 13:44:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/span_Base Data (2)")): Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data (2)' is clicked on
+
+2018-12-03 13:44:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data (2)' is clicked on
+
+2018-12-03 13:44:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_WorkForce Management System As/span_Employee"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-03 13:44:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-03 13:44:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/span_Employee")): Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-03 13:44:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-03 13:44:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_WorkForce Management System As/span_Group"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Group' is visible
+
+2018-12-03 13:44:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Group' is visible
+
+2018-12-03 13:44:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Group")): Object: 'Object Repository/Page_WorkForce Management System As/span_Group' is clicked on
+
+2018-12-03 13:44:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Group' is clicked on
+
+2018-12-03 13:44:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/a_2 grp")): Object: 'Object Repository/Page_WorkForce Management System As/a_2 grp' is clicked on
+
+2018-12-03 13:44:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/a_2 grp' is clicked on
+
+2018-12-03 13:44:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/a_Page 2 of 2_lnk_emp_group_pr")): Object: 'Object Repository/Page_WorkForce Management System As/a_Page 2 of 2_lnk_emp_group_pr' is clicked on
+
+2018-12-03 13:44:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/a_Page 2 of 2_lnk_emp_group_pr' is clicked on
+
+2018-12-03 13:44:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-03 13:44:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-03 13:44:29 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/Base Data - Group/06 Filter Pagination/41 Filter Previous Navigation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

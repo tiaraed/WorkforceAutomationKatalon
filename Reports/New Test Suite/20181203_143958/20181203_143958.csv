@@ -1,0 +1,127 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Chrome 70.0.3538.110,,2018-12-03 14:40:00,2018-12-03 14:41:53,"1m - 53,272s",FAILED
+,,,,,,
+Test Cases/Base Data - Shift Type/03 View Shift Type/49 View Shift Type List Data,Chrome 70.0.3538.110,,2018-12-03 14:40:00,2018-12-03 14:40:13,"12,884s",PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-03 14:40:01,2018-12-03 14:40:06,"4,736s",PASSED
+"navigateToUrl(""http://ads.asyst.co.id/login.html"")",Chrome 70.0.3538.110,,2018-12-03 14:40:06,2018-12-03 14:40:09,"3,646s",PASSED
+"setText(findTestObject(""Page_Asyst Workforce asd/input_Email_inp_lgn_email""), ""haris.ilham"")",Chrome 70.0.3538.110,,2018-12-03 14:40:09,2018-12-03 14:40:10,"0,221s",PASSED
+"setText(findTestObject(""Page_Asyst Workforce asd/input_Password_inp_lgn_passwor""), ""12345"")",Chrome 70.0.3538.110,,2018-12-03 14:40:10,2018-12-03 14:40:10,"0,127s",PASSED
+"click(findTestObject(""Page_Asyst Workforce asd/button_Login""))",Chrome 70.0.3538.110,,2018-12-03 14:40:10,2018-12-03 14:40:11,"1,028s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/span_Base Data""))",Chrome 70.0.3538.110,,2018-12-03 14:40:11,2018-12-03 14:40:11,"0,143s",PASSED
+"waitForElementVisible(findTestObject(""Page_WorkForce Management System As/span_Employee""), 50)",Chrome 70.0.3538.110,,2018-12-03 14:40:11,2018-12-03 14:40:11,"0,595s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/span_Employee""))",Chrome 70.0.3538.110,,2018-12-03 14:40:11,2018-12-03 14:40:12,"0,099s",PASSED
+"waitForElementVisible(findTestObject(""Page_WorkForce Management System As/span_Shift Type""), 50)",Chrome 70.0.3538.110,,2018-12-03 14:40:12,2018-12-03 14:40:12,"0,585s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/span_Shift Type""))",Chrome 70.0.3538.110,,2018-12-03 14:40:12,2018-12-03 14:40:12,"0,081s",PASSED
+"verifyElementPresent(findTestObject(""Page_WorkForce Management System As/h1_Shift Type""), 50)",Chrome 70.0.3538.110,,2018-12-03 14:40:12,2018-12-03 14:40:13,"0,360s",PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-03 14:40:13,2018-12-03 14:40:13,"0,823s",PASSED
+,,,,,,
+Test Cases/Base Data - Shift Type/04 Delete Shift Type/Negative/51 Delete Shift Type Data (Cancel),Chrome 70.0.3538.110,,2018-12-03 14:40:13,2018-12-03 14:40:24,"10,433s",PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-03 14:40:14,2018-12-03 14:40:16,"2,213s",PASSED
+"navigateToUrl(""http://ads.asyst.co.id/login.html"")",Chrome 70.0.3538.110,,2018-12-03 14:40:16,2018-12-03 14:40:20,"3,742s",PASSED
+"setText(findTestObject(""Page_Asyst Workforce asd/input_Email_inp_lgn_email""), ""haris.ilham"")",Chrome 70.0.3538.110,,2018-12-03 14:40:20,2018-12-03 14:40:20,"0,136s",PASSED
+"setEncryptedText(findTestObject(""Page_Asyst Workforce asd/input_Password_inp_lgn_passwor""), ""iGDxf8hSRT4="")",Chrome 70.0.3538.110,,2018-12-03 14:40:20,2018-12-03 14:40:20,"0,286s",PASSED
+"click(findTestObject(""Page_Asyst Workforce asd/button_Login""))",Chrome 70.0.3538.110,,2018-12-03 14:40:20,2018-12-03 14:40:21,"0,789s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Base Data (2)""))",Chrome 70.0.3538.110,,2018-12-03 14:40:21,2018-12-03 14:40:21,"0,184s",PASSED
+"waitForElementVisible(findTestObject(""Page_WorkForce Management System As/span_Employee""), 50)",Chrome 70.0.3538.110,,2018-12-03 14:40:21,2018-12-03 14:40:22,"0,610s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/span_Employee""))",Chrome 70.0.3538.110,,2018-12-03 14:40:22,2018-12-03 14:40:22,"0,084s",PASSED
+"waitForElementVisible(findTestObject(""Page_WorkForce Management System As/span_Shift Type""), 50)",Chrome 70.0.3538.110,,2018-12-03 14:40:22,2018-12-03 14:40:22,"0,564s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/span_Shift Type""))",Chrome 70.0.3538.110,,2018-12-03 14:40:22,2018-12-03 14:40:22,"0,086s",PASSED
+"setText(findTestObject(""Page_WorkForce Management System As/input_Shift Type_inp_shift_sea""), ""0100"")",Chrome 70.0.3538.110,,2018-12-03 14:40:22,2018-12-03 14:40:23,"0,283s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/span_Search (2)""))",Chrome 70.0.3538.110,,2018-12-03 14:40:23,2018-12-03 14:40:23,"0,119s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/i_Y_fa fa-trash (1)""))",Chrome 70.0.3538.110,,2018-12-03 14:40:23,2018-12-03 14:40:23,"0,114s",PASSED
+"verifyTextPresent(""Are you sure to delete this data ?"", true)",Chrome 70.0.3538.110,,2018-12-03 14:40:23,2018-12-03 14:40:23,"0,138s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/input_Are you sure to delete no""))",Chrome 70.0.3538.110,,2018-12-03 14:40:23,2018-12-03 14:40:23,"0,106s",PASSED
+"verifyElementPresent(findTestObject(""Page_WorkForce Management System As/h1_Shift Type""), 50)",Chrome 70.0.3538.110,,2018-12-03 14:40:23,2018-12-03 14:40:23,"0,035s",PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-03 14:40:23,2018-12-03 14:40:24,"0,730s",PASSED
+,,,,,,
+Test Cases/Base Data - Shift Type/04 Delete Shift Type/Positive/50 Delete Shift Type Data,Chrome 70.0.3538.110,,2018-12-03 14:40:24,2018-12-03 14:40:32,"8,455s",PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-03 14:40:24,2018-12-03 14:40:26,"2,239s",PASSED
+"navigateToUrl(""http://ads.asyst.co.id/login.html"")",Chrome 70.0.3538.110,,2018-12-03 14:40:26,2018-12-03 14:40:28,"2,196s",PASSED
+"setText(findTestObject(""Page_Asyst Workforce asd/input_Email_inp_lgn_email""), ""haris.ilham"")",Chrome 70.0.3538.110,,2018-12-03 14:40:28,2018-12-03 14:40:29,"0,144s",PASSED
+"setEncryptedText(findTestObject(""Page_Asyst Workforce asd/input_Password_inp_lgn_passwor""), ""iGDxf8hSRT4="")",Chrome 70.0.3538.110,,2018-12-03 14:40:29,2018-12-03 14:40:29,"0,150s",PASSED
+"click(findTestObject(""Page_Asyst Workforce asd/button_Login""))",Chrome 70.0.3538.110,,2018-12-03 14:40:29,2018-12-03 14:40:29,"0,607s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/span_Base Data (2)""))",Chrome 70.0.3538.110,,2018-12-03 14:40:29,2018-12-03 14:40:29,"0,096s",PASSED
+"waitForElementVisible(findTestObject(""Page_WorkForce Management System As/span_Employee""), 50)",Chrome 70.0.3538.110,,2018-12-03 14:40:29,2018-12-03 14:40:30,"0,549s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/span_Employee""))",Chrome 70.0.3538.110,,2018-12-03 14:40:30,2018-12-03 14:40:30,"0,065s",PASSED
+"waitForElementVisible(findTestObject(""Page_WorkForce Management System As/span_Shift Type""), 50)",Chrome 70.0.3538.110,,2018-12-03 14:40:30,2018-12-03 14:40:31,"0,552s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/span_Shift Type""))",Chrome 70.0.3538.110,,2018-12-03 14:40:31,2018-12-03 14:40:31,"0,183s",PASSED
+"setText(findTestObject(""Page_WorkForce Management System As/input_Shift Type_inp_shift_sea""), ""0100"")",Chrome 70.0.3538.110,,2018-12-03 14:40:31,2018-12-03 14:40:31,"0,113s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/span_Search (2)""))",Chrome 70.0.3538.110,,2018-12-03 14:40:31,2018-12-03 14:40:31,"0,119s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/i_Y_fa fa-trash (1)""))",Chrome 70.0.3538.110,,2018-12-03 14:40:31,2018-12-03 14:40:31,"0,112s",PASSED
+"verifyTextPresent(""Are you sure to delete this data ?"", true)",Chrome 70.0.3538.110,,2018-12-03 14:40:31,2018-12-03 14:40:31,"0,159s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/input_Are you sure to delete t""))",Chrome 70.0.3538.110,,2018-12-03 14:40:31,2018-12-03 14:40:31,"0,170s",PASSED
+"verifyTextPresent(""Data has been Delete succesfully"", true)",Chrome 70.0.3538.110,,2018-12-03 14:40:31,2018-12-03 14:40:32,"0,069s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/input_Data has been Delete suc""))",Chrome 70.0.3538.110,,2018-12-03 14:40:32,2018-12-03 14:40:32,"0,059s",PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-03 14:40:32,2018-12-03 14:40:32,"0,703s",PASSED
+,,,,,,
+Test Cases/Base Data - Shift Type/05 Filter Shift Type/Negative/53 Filter Shift Type Data (Doesnt Exist),Chrome 70.0.3538.110,,2018-12-03 14:40:32,2018-12-03 14:40:42,"10,106s",PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-03 14:40:32,2018-12-03 14:40:35,"2,199s",PASSED
+"navigateToUrl(""http://ads.asyst.co.id/login.html"")",Chrome 70.0.3538.110,,2018-12-03 14:40:35,2018-12-03 14:40:37,"2,605s",PASSED
+"setText(findTestObject(""Page_Asyst Workforce asd/input_Email_inp_lgn_email""), ""haris.ilham"")",Chrome 70.0.3538.110,,2018-12-03 14:40:37,2018-12-03 14:40:37,"0,137s",PASSED
+"setEncryptedText(findTestObject(""Page_Asyst Workforce asd/input_Password_inp_lgn_passwor""), ""iGDxf8hSRT4="")",Chrome 70.0.3538.110,,2018-12-03 14:40:37,2018-12-03 14:40:38,"0,123s",PASSED
+"click(findTestObject(""Page_Asyst Workforce asd/button_Login""))",Chrome 70.0.3538.110,,2018-12-03 14:40:38,2018-12-03 14:40:39,"1,291s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Base Data (2)""))",Chrome 70.0.3538.110,,2018-12-03 14:40:39,2018-12-03 14:40:39,"0,126s",PASSED
+"waitForElementVisible(findTestObject(""Page_WorkForce Management System As/span_Employee""), 50)",Chrome 70.0.3538.110,,2018-12-03 14:40:39,2018-12-03 14:40:39,"0,558s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/span_Employee""))",Chrome 70.0.3538.110,,2018-12-03 14:40:39,2018-12-03 14:40:40,"0,097s",PASSED
+"waitForElementVisible(findTestObject(""Page_WorkForce Management System As/span_Shift Type""), 50)",Chrome 70.0.3538.110,,2018-12-03 14:40:40,2018-12-03 14:40:40,"0,588s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/span_Shift Type""))",Chrome 70.0.3538.110,,2018-12-03 14:40:40,2018-12-03 14:40:40,"0,080s",PASSED
+"setText(findTestObject(""Page_WorkForce Management System As/input_Shift Type_inp_shift_sea""), ""hehehe"")",Chrome 70.0.3538.110,,2018-12-03 14:40:40,2018-12-03 14:40:41,"1,202s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Search (1)""))",Chrome 70.0.3538.110,,2018-12-03 14:40:41,2018-12-03 14:40:42,"0,107s",PASSED
+"verifyTextPresent(""-- No data --"", true)",Chrome 70.0.3538.110,,2018-12-03 14:40:42,2018-12-03 14:40:42,"0,127s",PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-03 14:40:42,2018-12-03 14:40:42,"0,706s",PASSED
+,,,,,,
+Test Cases/Base Data - Shift Type/05 Filter Shift Type/Positive/52 Filter Shift Type Data (Exist),Chrome 70.0.3538.110,,2018-12-03 14:40:42,2018-12-03 14:40:54,"11,236s",PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-03 14:40:43,2018-12-03 14:40:45,"2,372s",PASSED
+"navigateToUrl(""http://ads.asyst.co.id/login.html"")",Chrome 70.0.3538.110,,2018-12-03 14:40:45,2018-12-03 14:40:50,"5,159s",PASSED
+"setText(findTestObject(""Page_Asyst Workforce asd/input_Email_inp_lgn_email""), ""haris.ilham"")",Chrome 70.0.3538.110,,2018-12-03 14:40:50,2018-12-03 14:40:50,"0,164s",PASSED
+"setEncryptedText(findTestObject(""Page_Asyst Workforce asd/input_Password_inp_lgn_passwor""), ""iGDxf8hSRT4="")",Chrome 70.0.3538.110,,2018-12-03 14:40:50,2018-12-03 14:40:50,"0,121s",PASSED
+"click(findTestObject(""Page_Asyst Workforce asd/button_Login""))",Chrome 70.0.3538.110,,2018-12-03 14:40:50,2018-12-03 14:40:51,"0,669s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Base Data (2)""))",Chrome 70.0.3538.110,,2018-12-03 14:40:51,2018-12-03 14:40:51,"0,137s",PASSED
+"waitForElementVisible(findTestObject(""Page_WorkForce Management System As/span_Employee""), 50)",Chrome 70.0.3538.110,,2018-12-03 14:40:51,2018-12-03 14:40:52,"0,573s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/span_Employee""))",Chrome 70.0.3538.110,,2018-12-03 14:40:52,2018-12-03 14:40:52,"0,118s",PASSED
+"waitForElementVisible(findTestObject(""Page_WorkForce Management System As/span_Shift Type""), 50)",Chrome 70.0.3538.110,,2018-12-03 14:40:52,2018-12-03 14:40:52,"0,584s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/span_Shift Type""))",Chrome 70.0.3538.110,,2018-12-03 14:40:52,2018-12-03 14:40:53,"0,190s",PASSED
+"setText(findTestObject(""Page_WorkForce Management System As/input_Shift Type_inp_shift_sea""), ""0200"")",Chrome 70.0.3538.110,,2018-12-03 14:40:53,2018-12-03 14:40:53,"0,125s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Search (1)""))",Chrome 70.0.3538.110,,2018-12-03 14:40:53,2018-12-03 14:40:53,"0,100s",PASSED
+"verifyTextPresent(""0200"", true)",Chrome 70.0.3538.110,,2018-12-03 14:40:53,2018-12-03 14:40:53,"0,099s",PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-03 14:40:53,2018-12-03 14:40:54,"0,662s",PASSED
+,,,,,,
+Test Cases/Base Data - Shift Type/06 Filter Pagination/54 Filter Number of Page,Chrome 70.0.3538.110,,2018-12-03 14:40:54,2018-12-03 14:41:35,"40,889s",FAILED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-03 14:40:54,2018-12-03 14:40:56,"2,280s",PASSED
+"navigateToUrl(""http://ads.asyst.co.id/login.html"")",Chrome 70.0.3538.110,,2018-12-03 14:40:56,2018-12-03 14:41:01,"4,548s",PASSED
+"setText(findTestObject(""Page_Asyst Workforce asd/input_Email_inp_lgn_email""), ""haris.ilham"")",Chrome 70.0.3538.110,,2018-12-03 14:41:01,2018-12-03 14:41:01,"0,135s",PASSED
+"setEncryptedText(findTestObject(""Page_Asyst Workforce asd/input_Password_inp_lgn_passwor""), ""iGDxf8hSRT4="")",Chrome 70.0.3538.110,,2018-12-03 14:41:01,2018-12-03 14:41:01,"0,097s",PASSED
+"click(findTestObject(""Page_Asyst Workforce asd/button_Login""))",Chrome 70.0.3538.110,,2018-12-03 14:41:01,2018-12-03 14:41:01,"0,531s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Base Data (2)""))",Chrome 70.0.3538.110,,2018-12-03 14:41:01,2018-12-03 14:41:01,"0,105s",PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Employee""), 50)",Chrome 70.0.3538.110,,2018-12-03 14:41:01,2018-12-03 14:41:02,"0,544s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Employee""))",Chrome 70.0.3538.110,,2018-12-03 14:41:02,2018-12-03 14:41:02,"0,111s",PASSED
+"waitForElementVisible(findTestObject(""Page_WorkForce Management System As/span_Shift Type""), 50)",Chrome 70.0.3538.110,,2018-12-03 14:41:02,2018-12-03 14:41:03,"0,557s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/span_Shift Type""))",Chrome 70.0.3538.110,,2018-12-03 14:41:03,2018-12-03 14:41:03,"0,065s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/a_3""))",Chrome 70.0.3538.110,,2018-12-03 14:41:03,2018-12-03 14:41:35,"31,764s",FAILED
+,,,,,,
+Test Cases/Base Data - Shift Type/06 Filter Pagination/55 Filter Next Navigation,Chrome 70.0.3538.110,,2018-12-03 14:41:35,2018-12-03 14:41:44,"9,347s",FAILED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-03 14:41:35,2018-12-03 14:41:38,"2,947s",PASSED
+"navigateToUrl(""http://ads.asyst.co.id/login.html"")",Chrome 70.0.3538.110,,2018-12-03 14:41:38,2018-12-03 14:41:40,"2,813s",PASSED
+"setText(findTestObject(""Page_Asyst Workforce asd/input_Email_inp_lgn_email""), ""haris.ilham"")",Chrome 70.0.3538.110,,2018-12-03 14:41:40,2018-12-03 14:41:41,"0,280s",PASSED
+"setEncryptedText(findTestObject(""Page_Asyst Workforce asd/input_Password_inp_lgn_passwor""), ""iGDxf8hSRT4="")",Chrome 70.0.3538.110,,2018-12-03 14:41:41,2018-12-03 14:41:41,"0,121s",PASSED
+"click(findTestObject(""Page_Asyst Workforce asd/button_Login""))",Chrome 70.0.3538.110,,2018-12-03 14:41:41,2018-12-03 14:41:42,"1,073s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Base Data (2)""))",Chrome 70.0.3538.110,,2018-12-03 14:41:42,2018-12-03 14:41:42,"0,123s",PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Employee""), 50)",Chrome 70.0.3538.110,,2018-12-03 14:41:42,2018-12-03 14:41:43,"0,568s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Employee""))",Chrome 70.0.3538.110,,2018-12-03 14:41:43,2018-12-03 14:41:43,"0,092s",PASSED
+"waitForElementVisible(findTestObject(""Page_WorkForce Management System As/span_Shift Type""), 50)",Chrome 70.0.3538.110,,2018-12-03 14:41:43,2018-12-03 14:41:43,"0,584s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/span_Shift Type""))",Chrome 70.0.3538.110,,2018-12-03 14:41:43,2018-12-03 14:41:43,"0,089s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/a_Page 1 of 3_lnk_shift_next""))",Chrome 70.0.3538.110,,2018-12-03 14:41:43,2018-12-03 14:41:44,"0,464s",FAILED
+,,,,,,
+Test Cases/Base Data - Shift Type/06 Filter Pagination/56 Filter Previous Navigation,Chrome 70.0.3538.110,,2018-12-03 14:41:44,2018-12-03 14:41:53,"8,670s",FAILED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-03 14:41:44,2018-12-03 14:41:47,"2,947s",PASSED
+"navigateToUrl(""http://ads.asyst.co.id/login.html"")",Chrome 70.0.3538.110,,2018-12-03 14:41:47,2018-12-03 14:41:49,"2,455s",PASSED
+"setText(findTestObject(""Page_Asyst Workforce asd/input_Email_inp_lgn_email""), ""haris.ilham"")",Chrome 70.0.3538.110,,2018-12-03 14:41:49,2018-12-03 14:41:50,"0,150s",PASSED
+"setEncryptedText(findTestObject(""Page_Asyst Workforce asd/input_Password_inp_lgn_passwor""), ""iGDxf8hSRT4="")",Chrome 70.0.3538.110,,2018-12-03 14:41:50,2018-12-03 14:41:50,"0,120s",PASSED
+"click(findTestObject(""Page_Asyst Workforce asd/button_Login""))",Chrome 70.0.3538.110,,2018-12-03 14:41:50,2018-12-03 14:41:50,"0,688s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Base Data (2)""))",Chrome 70.0.3538.110,,2018-12-03 14:41:50,2018-12-03 14:41:51,"0,105s",PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Employee""), 50)",Chrome 70.0.3538.110,,2018-12-03 14:41:51,2018-12-03 14:41:51,"0,569s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Employee""))",Chrome 70.0.3538.110,,2018-12-03 14:41:51,2018-12-03 14:41:51,"0,096s",PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Employee Information""), 50)",Chrome 70.0.3538.110,,2018-12-03 14:41:51,2018-12-03 14:41:52,"0,548s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Employee Information""))",Chrome 70.0.3538.110,,2018-12-03 14:41:52,2018-12-03 14:41:52,"0,072s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/a_3""))",Chrome 70.0.3538.110,,2018-12-03 14:41:52,2018-12-03 14:41:52,"0,428s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/a_Page 2 of 3_lnk_shift_prev""))",Chrome 70.0.3538.110,,2018-12-03 14:41:52,2018-12-03 14:41:53,"0,320s",FAILED

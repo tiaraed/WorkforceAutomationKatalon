@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="43" tests="4" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="4" failures="0" errors="0" time="43" timestamp="2018-12-06 15:58:26" hostname="Administrator - 172.25.138.143" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\ASYST\\project\\ads workforce\\katalon\\Workforce Management\\Reports\\New Test Suite\\20181206_155824"/>
+         <property name="logFiles" value="D:\\ASYST\\project\\ads workforce\\katalon\\Workforce Management\\Reports\\New Test Suite\\20181206_155824\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - 172.25.138.143"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="172.25.138.143"/>
+         <property name="sessionId" value="744151d807e3cec0827f1612c0a4f705"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Base Data - Employee Information/01 Create Employee/Positive/aDD DATA DRIVEN" classname="Test Cases/Base Data - Employee Information/01 Create Employee/Positive/aDD DATA DRIVEN" status="PASSED">
+         <system-out><![CDATA[2018-12-06 15:58:26 - [TEST_CASE][PASSED] - Test Cases/Base Data - Employee Information/01 Create Employee/Positive/aDD DATA DRIVEN: Test Cases/Base Data - Employee Information/01 Create Employee/Positive/aDD DATA DRIVEN
+
+2018-12-06 15:58:26 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-06 15:58:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-06 15:58:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-06 15:58:27 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-06 15:58:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-06 15:58:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-06 15:58:32 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-06 15:58:32 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-06 15:58:33 - [MESSAGE][PASSED] - Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-06 15:58:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login' successfully
+
+2018-12-06 15:58:34 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-12-06 15:58:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email"), "haris.ilham"): Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-06 15:58:34 - [MESSAGE][PASSED] - Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-06 15:58:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor"), "12345"): Text '12345' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-06 15:58:34 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-06 15:58:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Asyst Workforce asd/button_Login")): Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-06 15:58:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-06 15:58:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+2018-12-06 15:58:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Base Data - Employee - Employee Information Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Base Data - Employee - Employee Information Menu' successfully
+
+2018-12-06 15:58:35 - [TEST_CASE][PASSED] - Test Cases/Base Data - Employee - Employee Information Menu: Test Cases/Base Data - Employee - Employee Information Menu
+
+2018-12-06 15:58:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Base Data")): Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data' is clicked on
+
+2018-12-06 15:58:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data' is clicked on
+
+2018-12-06 15:58:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_WorkForce Management System As/span_Employee"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-06 15:58:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-06 15:58:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Employee")): Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-06 15:58:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-06 15:58:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_WorkForce Management System As/span_Employee Information"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Employee Information' is visible
+
+2018-12-06 15:58:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Employee Information' is visible
+
+2018-12-06 15:58:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Employee Information")): Object: 'Object Repository/Page_WorkForce Management System As/span_Employee Information' is clicked on
+
+2018-12-06 15:58:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Employee Information' is clicked on
+
+2018-12-06 15:58:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_WorkForce Management System As/h1_Employee"), 50): Object 'Object Repository/Page_WorkForce Management System As/h1_Employee' is present
+
+2018-12-06 15:58:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/h1_Employee' is present
+
+2018-12-06 15:58:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base Data - Employee - Employee Information Menu' successfully
+
+2018-12-06 15:58:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("hohoho"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/hohoho' successfully
+
+2018-12-06 15:58:37 - [TEST_CASE][PASSED] - Test Cases/hohoho: Test Cases/hohoho
+
+2018-12-06 15:58:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/button_Add New")): Object: 'Object Repository/Page_WorkForce Management System As/button_Add New' is clicked on
+
+2018-12-06 15:58:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/button_Add New' is clicked on
+
+2018-12-06 15:58:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_WorkForce Management System As/input__inp_empid"), empid): Text 'yesoryes' is set on object 'Object Repository/Page_WorkForce Management System As/input__inp_empid'
+
+2018-12-06 15:58:38 - [MESSAGE][PASSED] - Text 'yesoryes' is set on object 'Object Repository/Page_WorkForce Management System As/input__inp_empid'
+
+2018-12-06 15:58:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_WorkForce Management System As/input_First Name_inp_first_nam"), firstname): Text 'nayeon' is set on object 'Object Repository/Page_WorkForce Management System As/input_First Name_inp_first_nam'
+
+2018-12-06 15:58:38 - [MESSAGE][PASSED] - Text 'nayeon' is set on object 'Object Repository/Page_WorkForce Management System As/input_First Name_inp_first_nam'
+
+2018-12-06 15:58:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_WorkForce Management System As/input__inp_last_name"), lastname): Text 'juju' is set on object 'Object Repository/Page_WorkForce Management System As/input__inp_last_name'
+
+2018-12-06 15:58:38 - [MESSAGE][PASSED] - Text 'juju' is set on object 'Object Repository/Page_WorkForce Management System As/input__inp_last_name'
+
+2018-12-06 15:58:38 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_WorkForce Management System As/select_--Gender--"), gender, true): All options with value 'FEMALE' are selected in object 'Object Repository/Page_WorkForce Management System As/select_--Gender--'  using regular expression
+
+2018-12-06 15:58:38 - [MESSAGE][PASSED] - All options with value 'FEMALE' are selected in object 'Object Repository/Page_WorkForce Management System As/select_--Gender--'  using regular expression
+
+2018-12-06 15:58:38 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_WorkForce Management System As/select_-- Lists Group --UPGPBG"), group, true): All options with value 'GROUP1' are selected in object 'Object Repository/Page_WorkForce Management System As/select_-- Lists Group --UPGPBG'  using regular expression
+
+2018-12-06 15:58:38 - [MESSAGE][PASSED] - All options with value 'GROUP1' are selected in object 'Object Repository/Page_WorkForce Management System As/select_-- Lists Group --UPGPBG'  using regular expression
+
+2018-12-06 15:58:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/span_Save")): Object: 'Object Repository/Page_WorkForce Management System As/span_Save' is clicked on
+
+2018-12-06 15:58:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Save' is clicked on
+
+2018-12-06 15:58:39 - [TEST_STEP][PASSED] - verifyTextPresent("Data has been Input succesfully", true): Text 'Data has been Input succesfully' is present on page  using regular expression
+
+2018-12-06 15:58:39 - [MESSAGE][PASSED] - Text 'Data has been Input succesfully' is present on page  using regular expression
+
+2018-12-06 15:58:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/hohoho' successfully
+
+2018-12-06 15:58:39 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-12-06 15:58:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-06 15:58:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Base Data - Employee Information/01 Create Employee/Positive/aDD DATA DRIVEN" classname="Test Cases/Base Data - Employee Information/01 Create Employee/Positive/aDD DATA DRIVEN" status="PASSED">
+         <system-out><![CDATA[2018-12-06 15:58:40 - [TEST_CASE][PASSED] - Test Cases/Base Data - Employee Information/01 Create Employee/Positive/aDD DATA DRIVEN: Test Cases/Base Data - Employee Information/01 Create Employee/Positive/aDD DATA DRIVEN
+
+2018-12-06 15:58:40 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-06 15:58:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-06 15:58:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-06 15:58:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-06 15:58:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-06 15:58:43 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-06 15:58:43 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-06 15:58:45 - [MESSAGE][PASSED] - Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-06 15:58:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login' successfully
+
+2018-12-06 15:58:45 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-12-06 15:58:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email"), "haris.ilham"): Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-06 15:58:45 - [MESSAGE][PASSED] - Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-06 15:58:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor"), "12345"): Text '12345' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-06 15:58:45 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-06 15:58:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Asyst Workforce asd/button_Login")): Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-06 15:58:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-06 15:58:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+2018-12-06 15:58:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Base Data - Employee - Employee Information Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Base Data - Employee - Employee Information Menu' successfully
+
+2018-12-06 15:58:46 - [TEST_CASE][PASSED] - Test Cases/Base Data - Employee - Employee Information Menu: Test Cases/Base Data - Employee - Employee Information Menu
+
+2018-12-06 15:58:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Base Data")): Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data' is clicked on
+
+2018-12-06 15:58:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data' is clicked on
+
+2018-12-06 15:58:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_WorkForce Management System As/span_Employee"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-06 15:58:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-06 15:58:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Employee")): Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-06 15:58:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-06 15:58:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_WorkForce Management System As/span_Employee Information"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Employee Information' is visible
+
+2018-12-06 15:58:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Employee Information' is visible
+
+2018-12-06 15:58:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Employee Information")): Object: 'Object Repository/Page_WorkForce Management System As/span_Employee Information' is clicked on
+
+2018-12-06 15:58:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Employee Information' is clicked on
+
+2018-12-06 15:58:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_WorkForce Management System As/h1_Employee"), 50): Object 'Object Repository/Page_WorkForce Management System As/h1_Employee' is present
+
+2018-12-06 15:58:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/h1_Employee' is present
+
+2018-12-06 15:58:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base Data - Employee - Employee Information Menu' successfully
+
+2018-12-06 15:58:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("hohoho"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/hohoho' successfully
+
+2018-12-06 15:58:48 - [TEST_CASE][PASSED] - Test Cases/hohoho: Test Cases/hohoho
+
+2018-12-06 15:58:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/button_Add New")): Object: 'Object Repository/Page_WorkForce Management System As/button_Add New' is clicked on
+
+2018-12-06 15:58:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/button_Add New' is clicked on
+
+2018-12-06 15:58:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_WorkForce Management System As/input__inp_empid"), empid): Text 'yesoryes' is set on object 'Object Repository/Page_WorkForce Management System As/input__inp_empid'
+
+2018-12-06 15:58:48 - [MESSAGE][PASSED] - Text 'yesoryes' is set on object 'Object Repository/Page_WorkForce Management System As/input__inp_empid'
+
+2018-12-06 15:58:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_WorkForce Management System As/input_First Name_inp_first_nam"), firstname): Text 'nayeon' is set on object 'Object Repository/Page_WorkForce Management System As/input_First Name_inp_first_nam'
+
+2018-12-06 15:58:48 - [MESSAGE][PASSED] - Text 'nayeon' is set on object 'Object Repository/Page_WorkForce Management System As/input_First Name_inp_first_nam'
+
+2018-12-06 15:58:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_WorkForce Management System As/input__inp_last_name"), lastname): Text 'juju' is set on object 'Object Repository/Page_WorkForce Management System As/input__inp_last_name'
+
+2018-12-06 15:58:48 - [MESSAGE][PASSED] - Text 'juju' is set on object 'Object Repository/Page_WorkForce Management System As/input__inp_last_name'
+
+2018-12-06 15:58:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_WorkForce Management System As/select_--Gender--"), gender, true): All options with value 'FEMALE' are selected in object 'Object Repository/Page_WorkForce Management System As/select_--Gender--'  using regular expression
+
+2018-12-06 15:58:49 - [MESSAGE][PASSED] - All options with value 'FEMALE' are selected in object 'Object Repository/Page_WorkForce Management System As/select_--Gender--'  using regular expression
+
+2018-12-06 15:58:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_WorkForce Management System As/select_-- Lists Group --UPGPBG"), group, true): All options with value 'GROUP1' are selected in object 'Object Repository/Page_WorkForce Management System As/select_-- Lists Group --UPGPBG'  using regular expression
+
+2018-12-06 15:58:49 - [MESSAGE][PASSED] - All options with value 'GROUP1' are selected in object 'Object Repository/Page_WorkForce Management System As/select_-- Lists Group --UPGPBG'  using regular expression
+
+2018-12-06 15:58:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/span_Save")): Object: 'Object Repository/Page_WorkForce Management System As/span_Save' is clicked on
+
+2018-12-06 15:58:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Save' is clicked on
+
+2018-12-06 15:58:49 - [TEST_STEP][PASSED] - verifyTextPresent("Data has been Input succesfully", true): Text 'Data has been Input succesfully' is present on page  using regular expression
+
+2018-12-06 15:58:50 - [MESSAGE][PASSED] - Text 'Data has been Input succesfully' is present on page  using regular expression
+
+2018-12-06 15:58:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/hohoho' successfully
+
+2018-12-06 15:58:50 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-12-06 15:58:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-06 15:58:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Base Data - Employee Information/01 Create Employee/Positive/aDD DATA DRIVEN" classname="Test Cases/Base Data - Employee Information/01 Create Employee/Positive/aDD DATA DRIVEN" status="PASSED">
+         <system-out><![CDATA[2018-12-06 15:58:50 - [TEST_CASE][PASSED] - Test Cases/Base Data - Employee Information/01 Create Employee/Positive/aDD DATA DRIVEN: Test Cases/Base Data - Employee Information/01 Create Employee/Positive/aDD DATA DRIVEN
+
+2018-12-06 15:58:50 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-06 15:58:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-06 15:58:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-06 15:58:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-06 15:58:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-06 15:58:54 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-06 15:58:54 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-06 15:58:55 - [MESSAGE][PASSED] - Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-06 15:58:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login' successfully
+
+2018-12-06 15:58:55 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-12-06 15:58:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email"), "haris.ilham"): Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-06 15:58:56 - [MESSAGE][PASSED] - Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-06 15:58:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor"), "12345"): Text '12345' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-06 15:58:56 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-06 15:58:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Asyst Workforce asd/button_Login")): Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-06 15:58:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-06 15:58:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+2018-12-06 15:58:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Base Data - Employee - Employee Information Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Base Data - Employee - Employee Information Menu' successfully
+
+2018-12-06 15:58:56 - [TEST_CASE][PASSED] - Test Cases/Base Data - Employee - Employee Information Menu: Test Cases/Base Data - Employee - Employee Information Menu
+
+2018-12-06 15:58:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Base Data")): Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data' is clicked on
+
+2018-12-06 15:58:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data' is clicked on
+
+2018-12-06 15:58:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_WorkForce Management System As/span_Employee"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-06 15:58:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-06 15:58:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Employee")): Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-06 15:58:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-06 15:58:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_WorkForce Management System As/span_Employee Information"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Employee Information' is visible
+
+2018-12-06 15:58:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Employee Information' is visible
+
+2018-12-06 15:58:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Employee Information")): Object: 'Object Repository/Page_WorkForce Management System As/span_Employee Information' is clicked on
+
+2018-12-06 15:58:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Employee Information' is clicked on
+
+2018-12-06 15:58:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_WorkForce Management System As/h1_Employee"), 50): Object 'Object Repository/Page_WorkForce Management System As/h1_Employee' is present
+
+2018-12-06 15:58:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/h1_Employee' is present
+
+2018-12-06 15:58:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base Data - Employee - Employee Information Menu' successfully
+
+2018-12-06 15:58:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("hohoho"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/hohoho' successfully
+
+2018-12-06 15:58:58 - [TEST_CASE][PASSED] - Test Cases/hohoho: Test Cases/hohoho
+
+2018-12-06 15:58:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/button_Add New")): Object: 'Object Repository/Page_WorkForce Management System As/button_Add New' is clicked on
+
+2018-12-06 15:58:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/button_Add New' is clicked on
+
+2018-12-06 15:58:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_WorkForce Management System As/input__inp_empid"), empid): Text 'yesoryes' is set on object 'Object Repository/Page_WorkForce Management System As/input__inp_empid'
+
+2018-12-06 15:58:58 - [MESSAGE][PASSED] - Text 'yesoryes' is set on object 'Object Repository/Page_WorkForce Management System As/input__inp_empid'
+
+2018-12-06 15:58:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_WorkForce Management System As/input_First Name_inp_first_nam"), firstname): Text 'nayeon' is set on object 'Object Repository/Page_WorkForce Management System As/input_First Name_inp_first_nam'
+
+2018-12-06 15:58:58 - [MESSAGE][PASSED] - Text 'nayeon' is set on object 'Object Repository/Page_WorkForce Management System As/input_First Name_inp_first_nam'
+
+2018-12-06 15:58:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_WorkForce Management System As/input__inp_last_name"), lastname): Text 'juju' is set on object 'Object Repository/Page_WorkForce Management System As/input__inp_last_name'
+
+2018-12-06 15:58:58 - [MESSAGE][PASSED] - Text 'juju' is set on object 'Object Repository/Page_WorkForce Management System As/input__inp_last_name'
+
+2018-12-06 15:58:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_WorkForce Management System As/select_--Gender--"), gender, true): All options with value 'FEMALE' are selected in object 'Object Repository/Page_WorkForce Management System As/select_--Gender--'  using regular expression
+
+2018-12-06 15:58:58 - [MESSAGE][PASSED] - All options with value 'FEMALE' are selected in object 'Object Repository/Page_WorkForce Management System As/select_--Gender--'  using regular expression
+
+2018-12-06 15:58:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_WorkForce Management System As/select_-- Lists Group --UPGPBG"), group, true): All options with value 'GROUP1' are selected in object 'Object Repository/Page_WorkForce Management System As/select_-- Lists Group --UPGPBG'  using regular expression
+
+2018-12-06 15:58:58 - [MESSAGE][PASSED] - All options with value 'GROUP1' are selected in object 'Object Repository/Page_WorkForce Management System As/select_-- Lists Group --UPGPBG'  using regular expression
+
+2018-12-06 15:58:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/span_Save")): Object: 'Object Repository/Page_WorkForce Management System As/span_Save' is clicked on
+
+2018-12-06 15:58:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Save' is clicked on
+
+2018-12-06 15:58:59 - [TEST_STEP][PASSED] - verifyTextPresent("Data has been Input succesfully", true): Text 'Data has been Input succesfully' is present on page  using regular expression
+
+2018-12-06 15:58:59 - [MESSAGE][PASSED] - Text 'Data has been Input succesfully' is present on page  using regular expression
+
+2018-12-06 15:58:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/hohoho' successfully
+
+2018-12-06 15:58:59 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-12-06 15:58:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-06 15:59:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Base Data - Employee Information/01 Create Employee/Positive/aDD DATA DRIVEN" classname="Test Cases/Base Data - Employee Information/01 Create Employee/Positive/aDD DATA DRIVEN" status="PASSED">
+         <system-out><![CDATA[2018-12-06 15:59:00 - [TEST_CASE][PASSED] - Test Cases/Base Data - Employee Information/01 Create Employee/Positive/aDD DATA DRIVEN: Test Cases/Base Data - Employee Information/01 Create Employee/Positive/aDD DATA DRIVEN
+
+2018-12-06 15:59:00 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-06 15:59:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-06 15:59:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-06 15:59:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-06 15:59:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-06 15:59:03 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-06 15:59:03 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-06 15:59:04 - [MESSAGE][PASSED] - Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-06 15:59:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login' successfully
+
+2018-12-06 15:59:04 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-12-06 15:59:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email"), "haris.ilham"): Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-06 15:59:05 - [MESSAGE][PASSED] - Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-06 15:59:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor"), "12345"): Text '12345' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-06 15:59:05 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-06 15:59:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Asyst Workforce asd/button_Login")): Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-06 15:59:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-06 15:59:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+2018-12-06 15:59:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Base Data - Employee - Employee Information Menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Base Data - Employee - Employee Information Menu' successfully
+
+2018-12-06 15:59:06 - [TEST_CASE][PASSED] - Test Cases/Base Data - Employee - Employee Information Menu: Test Cases/Base Data - Employee - Employee Information Menu
+
+2018-12-06 15:59:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Base Data")): Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data' is clicked on
+
+2018-12-06 15:59:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data' is clicked on
+
+2018-12-06 15:59:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_WorkForce Management System As/span_Employee"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-06 15:59:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-06 15:59:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Employee")): Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-06 15:59:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-06 15:59:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_WorkForce Management System As/span_Employee Information"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Employee Information' is visible
+
+2018-12-06 15:59:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Employee Information' is visible
+
+2018-12-06 15:59:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Employee Information")): Object: 'Object Repository/Page_WorkForce Management System As/span_Employee Information' is clicked on
+
+2018-12-06 15:59:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Employee Information' is clicked on
+
+2018-12-06 15:59:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_WorkForce Management System As/h1_Employee"), 50): Object 'Object Repository/Page_WorkForce Management System As/h1_Employee' is present
+
+2018-12-06 15:59:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/h1_Employee' is present
+
+2018-12-06 15:59:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base Data - Employee - Employee Information Menu' successfully
+
+2018-12-06 15:59:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("hohoho"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/hohoho' successfully
+
+2018-12-06 15:59:07 - [TEST_CASE][PASSED] - Test Cases/hohoho: Test Cases/hohoho
+
+2018-12-06 15:59:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/button_Add New")): Object: 'Object Repository/Page_WorkForce Management System As/button_Add New' is clicked on
+
+2018-12-06 15:59:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/button_Add New' is clicked on
+
+2018-12-06 15:59:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_WorkForce Management System As/input__inp_empid"), empid): Text 'yesoryes' is set on object 'Object Repository/Page_WorkForce Management System As/input__inp_empid'
+
+2018-12-06 15:59:08 - [MESSAGE][PASSED] - Text 'yesoryes' is set on object 'Object Repository/Page_WorkForce Management System As/input__inp_empid'
+
+2018-12-06 15:59:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_WorkForce Management System As/input_First Name_inp_first_nam"), firstname): Text 'nayeon' is set on object 'Object Repository/Page_WorkForce Management System As/input_First Name_inp_first_nam'
+
+2018-12-06 15:59:08 - [MESSAGE][PASSED] - Text 'nayeon' is set on object 'Object Repository/Page_WorkForce Management System As/input_First Name_inp_first_nam'
+
+2018-12-06 15:59:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_WorkForce Management System As/input__inp_last_name"), lastname): Text 'juju' is set on object 'Object Repository/Page_WorkForce Management System As/input__inp_last_name'
+
+2018-12-06 15:59:08 - [MESSAGE][PASSED] - Text 'juju' is set on object 'Object Repository/Page_WorkForce Management System As/input__inp_last_name'
+
+2018-12-06 15:59:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_WorkForce Management System As/select_--Gender--"), gender, true): All options with value 'FEMALE' are selected in object 'Object Repository/Page_WorkForce Management System As/select_--Gender--'  using regular expression
+
+2018-12-06 15:59:08 - [MESSAGE][PASSED] - All options with value 'FEMALE' are selected in object 'Object Repository/Page_WorkForce Management System As/select_--Gender--'  using regular expression
+
+2018-12-06 15:59:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_WorkForce Management System As/select_-- Lists Group --UPGPBG"), group, true): All options with value 'GROUP1' are selected in object 'Object Repository/Page_WorkForce Management System As/select_-- Lists Group --UPGPBG'  using regular expression
+
+2018-12-06 15:59:08 - [MESSAGE][PASSED] - All options with value 'GROUP1' are selected in object 'Object Repository/Page_WorkForce Management System As/select_-- Lists Group --UPGPBG'  using regular expression
+
+2018-12-06 15:59:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/span_Save")): Object: 'Object Repository/Page_WorkForce Management System As/span_Save' is clicked on
+
+2018-12-06 15:59:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Save' is clicked on
+
+2018-12-06 15:59:09 - [TEST_STEP][PASSED] - verifyTextPresent("Data has been Input succesfully", true): Text 'Data has been Input succesfully' is present on page  using regular expression
+
+2018-12-06 15:59:09 - [MESSAGE][PASSED] - Text 'Data has been Input succesfully' is present on page  using regular expression
+
+2018-12-06 15:59:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/hohoho' successfully
+
+2018-12-06 15:59:09 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-12-06 15:59:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-06 15:59:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-06 15:58:26 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/Base Data - Employee Information/01 Create Employee/Positive/aDD DATA DRIVEN]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

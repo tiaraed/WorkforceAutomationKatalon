@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload Task with Invalid Format File</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff7ea58a-dbcd-4573-a8c4-0fafb4bd013c</testCaseGuid>
+</TestCaseEntity>

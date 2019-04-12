@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Chrome 70.0.3538.110,,2018-12-06 15:58:26,2018-12-06 15:59:10,"43,953s",PASSED
+,,,,,,
+Test Cases/Base Data - Employee Information/01 Create Employee/Positive/aDD DATA DRIVEN,Chrome 70.0.3538.110,,2018-12-06 15:58:26,2018-12-06 15:58:40,"13,913s",PASSED
+Start listener action : beforeTestcase,Chrome 70.0.3538.110,,2018-12-06 15:58:26,2018-12-06 15:58:33,"7,226s",PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 15:58:34,2018-12-06 15:58:35,"1,475s",PASSED
+"callTestCase(findTestCase(""Base Data - Employee - Employee Information Menu""), [:], STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 15:58:35,2018-12-06 15:58:37,"2,071s",PASSED
+"callTestCase(findTestCase(""hohoho""), [:], STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 15:58:37,2018-12-06 15:58:39,"2,062s",PASSED
+Start listener action : afterTestcase,Chrome 70.0.3538.110,,2018-12-06 15:58:39,2018-12-06 15:58:40,"0,921s",PASSED
+,,,,,,
+Test Cases/Base Data - Employee Information/01 Create Employee/Positive/aDD DATA DRIVEN,Chrome 70.0.3538.110,,2018-12-06 15:58:40,2018-12-06 15:58:50,"10,317s",PASSED
+Start listener action : beforeTestcase,Chrome 70.0.3538.110,,2018-12-06 15:58:40,2018-12-06 15:58:45,"5,038s",PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 15:58:45,2018-12-06 15:58:46,"0,875s",PASSED
+"callTestCase(findTestCase(""Base Data - Employee - Employee Information Menu""), [:], STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 15:58:46,2018-12-06 15:58:48,"1,801s",PASSED
+"callTestCase(findTestCase(""hohoho""), [:], STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 15:58:48,2018-12-06 15:58:50,"1,855s",PASSED
+Start listener action : afterTestcase,Chrome 70.0.3538.110,,2018-12-06 15:58:50,2018-12-06 15:58:50,"0,739s",PASSED
+,,,,,,
+Test Cases/Base Data - Employee Information/01 Create Employee/Positive/aDD DATA DRIVEN,Chrome 70.0.3538.110,,2018-12-06 15:58:50,2018-12-06 15:59:00,"9,348s",PASSED
+Start listener action : beforeTestcase,Chrome 70.0.3538.110,,2018-12-06 15:58:50,2018-12-06 15:58:55,"4,945s",PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 15:58:55,2018-12-06 15:58:56,"0,839s",PASSED
+"callTestCase(findTestCase(""Base Data - Employee - Employee Information Menu""), [:], STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 15:58:56,2018-12-06 15:58:57,"1,270s",PASSED
+"callTestCase(findTestCase(""hohoho""), [:], STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 15:58:57,2018-12-06 15:58:59,"1,590s",PASSED
+Start listener action : afterTestcase,Chrome 70.0.3538.110,,2018-12-06 15:58:59,2018-12-06 15:59:00,"0,686s",PASSED
+,,,,,,
+Test Cases/Base Data - Employee Information/01 Create Employee/Positive/aDD DATA DRIVEN,Chrome 70.0.3538.110,,2018-12-06 15:59:00,2018-12-06 15:59:10,"9,929s",PASSED
+Start listener action : beforeTestcase,Chrome 70.0.3538.110,,2018-12-06 15:59:00,2018-12-06 15:59:04,"4,590s",PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 15:59:04,2018-12-06 15:59:05,"1,122s",PASSED
+"callTestCase(findTestCase(""Base Data - Employee - Employee Information Menu""), [:], STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 15:59:05,2018-12-06 15:59:07,"1,770s",PASSED
+"callTestCase(findTestCase(""hohoho""), [:], STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-06 15:59:07,2018-12-06 15:59:09,"1,681s",PASSED
+Start listener action : afterTestcase,Chrome 70.0.3538.110,,2018-12-06 15:59:09,2018-12-06 15:59:10,"0,752s",PASSED

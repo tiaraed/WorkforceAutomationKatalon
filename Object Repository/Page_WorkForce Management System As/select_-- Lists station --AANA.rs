@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_-- Lists station --AANA</name>
+   <tag></tag>
+   <elementGuidId>526dc72a-8caa-4062-8795-1e3e6f91cb95</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='sel_group_station']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>sel_group_station</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>sel_group_station</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>custom-select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>-- Lists station --AANADDADLAKLAMBAMDAMIAMMAMQAMSANCASBATHAUHAXMBAHBAKBDJBDOBEJBELBENBERBEYBFIBGWBIKBJSBKIBKKBKSBLRBMUBNEBOJBOMBPNBTHBTJBTOBWNBWXCAICANCBNCBRCCUCDGCEBCGKCGOCMBCNXCRGCRKCTSCTUCXPDACDCNDELDILDJBDJJDMKDMMDODDOHDPMDPSDRWDTBDUBDUMDUSDWCDXBDYGEDBEINFAAFCOFJRFKSFLZFOCFRAFUKGMPGTOGUMHAKHANHFEHGHHGRHHNHJHKGHKTHLPHNDHNLHRBHREHYDICNIKAISBISTITMJEDJHBJIBJNBJOGKANKBLKCHKDIKHIKIXKNOKOAKOEKRTKSAKTGKTMKULKWIKWLLADLBJLCALEALGKLGWLHRLLGLOPLUWLUXMAAMADMAJMBAMCTMDCMEDMELMEMMESMFMMJUMKQMKWMLEMLGMNLMOFMOWMRBMRUMSQMUCMUMMWKMXZMYQNANNBONGBNGONKGNNGNRTNTXNYUOAIOHAOSAPAEPCBPDGPEKPENPERPGAPGKPHEPHXPKNPKUPKYPLBPLMPLUPLWPLZPNHPNKPOMPVGQPGRGNRGTRIYRKTRORRUHRUNSAHSBGSELSETSEZSFSSGNSHASHJSINSIQSLLSMQSOCSOQSPNSQTSRGSUBSVOSYDSZBSZXTGGTHRTIMTJQTKGTKKTKYTLSTNATNJTNNTNRTPETRKTSATSNTSVTTETUNTYOULNUPGURCUSAUTPVNOVTEWUHXCHXMNXSAXSPZRH</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sel_group_station&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//select[@id='sel_group_station']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='content']/div/div/div/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Station'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Flight Monitoring'])[3]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//select</value>
+   </webElementXpaths>
+</WebElementEntity>

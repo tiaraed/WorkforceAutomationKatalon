@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="113" tests="5" failures="3" errors="0">
+   <testsuite name="New Test Suite" tests="5" failures="3" errors="0" time="113" timestamp="2018-12-03 14:40:00" hostname="Administrator - 172.25.138.232" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\ASYST\\project\\ads workforce\\katalon\\Workforce Management\\Reports\\New Test Suite\\20181203_143958"/>
+         <property name="logFiles" value="D:\\ASYST\\project\\ads workforce\\katalon\\Workforce Management\\Reports\\New Test Suite\\20181203_143958\\execution0.log"/>
+         <property name="attachments" value="D:\\ASYST\\project\\ads workforce\\katalon\\Workforce Management\\Reports\\New Test Suite\\20181203_143958\\1543822894657.png, D:\\ASYST\\project\\ads workforce\\katalon\\Workforce Management\\Reports\\New Test Suite\\20181203_143958\\1543822903904.png, D:\\ASYST\\project\\ads workforce\\katalon\\Workforce Management\\Reports\\New Test Suite\\20181203_143958\\1543822912725.png"/>
+         <property name="hostName" value="Administrator - 172.25.138.232"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="172.25.138.232"/>
+         <property name="sessionId" value="2b1954a3a778c26f6e5249449a072aa1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Base Data - Shift Type/03 View Shift Type/49 View Shift Type List Data" classname="Test Cases/Base Data - Shift Type/03 View Shift Type/49 View Shift Type List Data" status="PASSED">
+         <system-out><![CDATA[2018-12-03 14:40:00 - [TEST_CASE][PASSED] - Test Cases/Base Data - Shift Type/03 View Shift Type/49 View Shift Type List Data: Test Cases/Base Data - Shift Type/03 View Shift Type/49 View Shift Type List Data
+
+2018-12-03 14:40:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-03 14:40:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-03 14:40:01 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-03 14:40:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-03 14:40:06 - [TEST_STEP][PASSED] - navigateToUrl("http://ads.asyst.co.id/login.html"): Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-03 14:40:09 - [MESSAGE][PASSED] - Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-03 14:40:09 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Asyst Workforce asd/input_Email_inp_lgn_email"), "haris.ilham"): Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-03 14:40:10 - [MESSAGE][PASSED] - Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-03 14:40:10 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Asyst Workforce asd/input_Password_inp_lgn_passwor"), "12345"): Text '12345' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-03 14:40:10 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-03 14:40:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_Asyst Workforce asd/button_Login")): Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-03 14:40:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-03 14:40:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Base Data")): Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data' is clicked on
+
+2018-12-03 14:40:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data' is clicked on
+
+2018-12-03 14:40:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_WorkForce Management System As/span_Employee"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-03 14:40:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-03 14:40:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Employee")): Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-03 14:40:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-03 14:40:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_WorkForce Management System As/span_Shift Type"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is visible
+
+2018-12-03 14:40:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is visible
+
+2018-12-03 14:40:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Shift Type")): Object: 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is clicked on
+
+2018-12-03 14:40:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is clicked on
+
+2018-12-03 14:40:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_WorkForce Management System As/h1_Shift Type"), 50): Object 'Object Repository/Page_WorkForce Management System As/h1_Shift Type' is present
+
+2018-12-03 14:40:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/h1_Shift Type' is present
+
+2018-12-03 14:40:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-03 14:40:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Base Data - Shift Type/04 Delete Shift Type/Negative/51 Delete Shift Type Data (Cancel)" classname="Test Cases/Base Data - Shift Type/04 Delete Shift Type/Negative/51 Delete Shift Type Data (Cancel)" status="PASSED">
+         <system-out><![CDATA[2018-12-03 14:40:13 - [TEST_CASE][PASSED] - Test Cases/Base Data - Shift Type/04 Delete Shift Type/Negative/51 Delete Shift Type Data (Cancel): Test Cases/Base Data - Shift Type/04 Delete Shift Type/Negative/51 Delete Shift Type Data (Cancel)
+
+2018-12-03 14:40:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-03 14:40:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-03 14:40:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-03 14:40:16 - [TEST_STEP][PASSED] - navigateToUrl("http://ads.asyst.co.id/login.html"): Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-03 14:40:20 - [MESSAGE][PASSED] - Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-03 14:40:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Asyst Workforce asd/input_Email_inp_lgn_email"), "haris.ilham"): Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-03 14:40:20 - [MESSAGE][PASSED] - Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-03 14:40:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Asyst Workforce asd/input_Password_inp_lgn_passwor"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-03 14:40:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-03 14:40:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_Asyst Workforce asd/button_Login")): Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-03 14:40:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-03 14:40:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/span_Base Data (2)")): Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data (2)' is clicked on
+
+2018-12-03 14:40:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data (2)' is clicked on
+
+2018-12-03 14:40:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_WorkForce Management System As/span_Employee"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-03 14:40:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-03 14:40:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Employee")): Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-03 14:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-03 14:40:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_WorkForce Management System As/span_Shift Type"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is visible
+
+2018-12-03 14:40:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is visible
+
+2018-12-03 14:40:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Shift Type")): Object: 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is clicked on
+
+2018-12-03 14:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is clicked on
+
+2018-12-03 14:40:22 - [TEST_STEP][PASSED] - setText(findTestObject("Page_WorkForce Management System As/input_Shift Type_inp_shift_sea"), "0100"): Text '0100' is set on object 'Object Repository/Page_WorkForce Management System As/input_Shift Type_inp_shift_sea'
+
+2018-12-03 14:40:23 - [MESSAGE][PASSED] - Text '0100' is set on object 'Object Repository/Page_WorkForce Management System As/input_Shift Type_inp_shift_sea'
+
+2018-12-03 14:40:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Search (2)")): Object: 'Object Repository/Page_WorkForce Management System As/span_Search (2)' is clicked on
+
+2018-12-03 14:40:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Search (2)' is clicked on
+
+2018-12-03 14:40:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/i_Y_fa fa-trash (1)")): Object: 'Object Repository/Page_WorkForce Management System As/i_Y_fa fa-trash (1)' is clicked on
+
+2018-12-03 14:40:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/i_Y_fa fa-trash (1)' is clicked on
+
+2018-12-03 14:40:23 - [TEST_STEP][PASSED] - verifyTextPresent("Are you sure to delete this data ?", true): Text 'Are you sure to delete this data ?' is present on page  using regular expression
+
+2018-12-03 14:40:23 - [MESSAGE][PASSED] - Text 'Are you sure to delete this data ?' is present on page  using regular expression
+
+2018-12-03 14:40:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/input_Are you sure to delete no")): Object: 'Object Repository/Page_WorkForce Management System As/input_Are you sure to delete no' is clicked on
+
+2018-12-03 14:40:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/input_Are you sure to delete no' is clicked on
+
+2018-12-03 14:40:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_WorkForce Management System As/h1_Shift Type"), 50): Object 'Object Repository/Page_WorkForce Management System As/h1_Shift Type' is present
+
+2018-12-03 14:40:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/h1_Shift Type' is present
+
+2018-12-03 14:40:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-03 14:40:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Base Data - Shift Type/04 Delete Shift Type/Positive/50 Delete Shift Type Data" classname="Test Cases/Base Data - Shift Type/04 Delete Shift Type/Positive/50 Delete Shift Type Data" status="PASSED">
+         <system-out><![CDATA[2018-12-03 14:40:24 - [TEST_CASE][PASSED] - Test Cases/Base Data - Shift Type/04 Delete Shift Type/Positive/50 Delete Shift Type Data: Test Cases/Base Data - Shift Type/04 Delete Shift Type/Positive/50 Delete Shift Type Data
+
+2018-12-03 14:40:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-03 14:40:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-03 14:40:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-03 14:40:26 - [TEST_STEP][PASSED] - navigateToUrl("http://ads.asyst.co.id/login.html"): Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-03 14:40:28 - [MESSAGE][PASSED] - Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-03 14:40:28 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Asyst Workforce asd/input_Email_inp_lgn_email"), "haris.ilham"): Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-03 14:40:29 - [MESSAGE][PASSED] - Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-03 14:40:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Asyst Workforce asd/input_Password_inp_lgn_passwor"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-03 14:40:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-03 14:40:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_Asyst Workforce asd/button_Login")): Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-03 14:40:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-03 14:40:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Base Data (2)")): Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data (2)' is clicked on
+
+2018-12-03 14:40:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data (2)' is clicked on
+
+2018-12-03 14:40:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_WorkForce Management System As/span_Employee"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-03 14:40:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-03 14:40:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Employee")): Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-03 14:40:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-03 14:40:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_WorkForce Management System As/span_Shift Type"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is visible
+
+2018-12-03 14:40:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is visible
+
+2018-12-03 14:40:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Shift Type")): Object: 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is clicked on
+
+2018-12-03 14:40:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is clicked on
+
+2018-12-03 14:40:31 - [TEST_STEP][PASSED] - setText(findTestObject("Page_WorkForce Management System As/input_Shift Type_inp_shift_sea"), "0100"): Text '0100' is set on object 'Object Repository/Page_WorkForce Management System As/input_Shift Type_inp_shift_sea'
+
+2018-12-03 14:40:31 - [MESSAGE][PASSED] - Text '0100' is set on object 'Object Repository/Page_WorkForce Management System As/input_Shift Type_inp_shift_sea'
+
+2018-12-03 14:40:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Search (2)")): Object: 'Object Repository/Page_WorkForce Management System As/span_Search (2)' is clicked on
+
+2018-12-03 14:40:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Search (2)' is clicked on
+
+2018-12-03 14:40:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/i_Y_fa fa-trash (1)")): Object: 'Object Repository/Page_WorkForce Management System As/i_Y_fa fa-trash (1)' is clicked on
+
+2018-12-03 14:40:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/i_Y_fa fa-trash (1)' is clicked on
+
+2018-12-03 14:40:31 - [TEST_STEP][PASSED] - verifyTextPresent("Are you sure to delete this data ?", true): Text 'Are you sure to delete this data ?' is present on page  using regular expression
+
+2018-12-03 14:40:31 - [MESSAGE][PASSED] - Text 'Are you sure to delete this data ?' is present on page  using regular expression
+
+2018-12-03 14:40:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/input_Are you sure to delete t")): Object: 'Object Repository/Page_WorkForce Management System As/input_Are you sure to delete t' is clicked on
+
+2018-12-03 14:40:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/input_Are you sure to delete t' is clicked on
+
+2018-12-03 14:40:31 - [TEST_STEP][PASSED] - verifyTextPresent("Data has been Delete succesfully", true): Text 'Data has been Delete succesfully' is present on page  using regular expression
+
+2018-12-03 14:40:32 - [MESSAGE][PASSED] - Text 'Data has been Delete succesfully' is present on page  using regular expression
+
+2018-12-03 14:40:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/input_Data has been Delete suc")): Object: 'Object Repository/Page_WorkForce Management System As/input_Data has been Delete suc' is clicked on
+
+2018-12-03 14:40:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/input_Data has been Delete suc' is clicked on
+
+2018-12-03 14:40:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-03 14:40:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Base Data - Shift Type/05 Filter Shift Type/Negative/53 Filter Shift Type Data (Doesnt Exist)" classname="Test Cases/Base Data - Shift Type/05 Filter Shift Type/Negative/53 Filter Shift Type Data (Doesnt Exist)" status="PASSED">
+         <system-out><![CDATA[2018-12-03 14:40:32 - [TEST_CASE][PASSED] - Test Cases/Base Data - Shift Type/05 Filter Shift Type/Negative/53 Filter Shift Type Data (Doesnt Exist): Test Cases/Base Data - Shift Type/05 Filter Shift Type/Negative/53 Filter Shift Type Data (Doesnt Exist)
+
+2018-12-03 14:40:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-03 14:40:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-03 14:40:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-03 14:40:35 - [TEST_STEP][PASSED] - navigateToUrl("http://ads.asyst.co.id/login.html"): Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-03 14:40:37 - [MESSAGE][PASSED] - Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-03 14:40:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Asyst Workforce asd/input_Email_inp_lgn_email"), "haris.ilham"): Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-03 14:40:37 - [MESSAGE][PASSED] - Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-03 14:40:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Asyst Workforce asd/input_Password_inp_lgn_passwor"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-03 14:40:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-03 14:40:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_Asyst Workforce asd/button_Login")): Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-03 14:40:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-03 14:40:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/span_Base Data (2)")): Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data (2)' is clicked on
+
+2018-12-03 14:40:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data (2)' is clicked on
+
+2018-12-03 14:40:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_WorkForce Management System As/span_Employee"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-03 14:40:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-03 14:40:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Employee")): Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-03 14:40:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-03 14:40:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_WorkForce Management System As/span_Shift Type"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is visible
+
+2018-12-03 14:40:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is visible
+
+2018-12-03 14:40:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Shift Type")): Object: 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is clicked on
+
+2018-12-03 14:40:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is clicked on
+
+2018-12-03 14:40:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_WorkForce Management System As/input_Shift Type_inp_shift_sea"), "hehehe"): Text 'hehehe' is set on object 'Object Repository/Page_WorkForce Management System As/input_Shift Type_inp_shift_sea'
+
+2018-12-03 14:40:41 - [MESSAGE][PASSED] - Text 'hehehe' is set on object 'Object Repository/Page_WorkForce Management System As/input_Shift Type_inp_shift_sea'
+
+2018-12-03 14:40:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/span_Search (1)")): Object: 'Object Repository/Page_WorkForce Management System As/span_Search (1)' is clicked on
+
+2018-12-03 14:40:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Search (1)' is clicked on
+
+2018-12-03 14:40:42 - [TEST_STEP][PASSED] - verifyTextPresent("-- No data --", true): Text '-- No data --' is present on page  using regular expression
+
+2018-12-03 14:40:42 - [MESSAGE][PASSED] - Text '-- No data --' is present on page  using regular expression
+
+2018-12-03 14:40:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-03 14:40:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Base Data - Shift Type/05 Filter Shift Type/Positive/52 Filter Shift Type Data (Exist)" classname="Test Cases/Base Data - Shift Type/05 Filter Shift Type/Positive/52 Filter Shift Type Data (Exist)" status="PASSED">
+         <system-out><![CDATA[2018-12-03 14:40:42 - [TEST_CASE][PASSED] - Test Cases/Base Data - Shift Type/05 Filter Shift Type/Positive/52 Filter Shift Type Data (Exist): Test Cases/Base Data - Shift Type/05 Filter Shift Type/Positive/52 Filter Shift Type Data (Exist)
+
+2018-12-03 14:40:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-03 14:40:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-03 14:40:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-03 14:40:45 - [TEST_STEP][PASSED] - navigateToUrl("http://ads.asyst.co.id/login.html"): Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-03 14:40:50 - [MESSAGE][PASSED] - Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-03 14:40:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Asyst Workforce asd/input_Email_inp_lgn_email"), "haris.ilham"): Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-03 14:40:50 - [MESSAGE][PASSED] - Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-03 14:40:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Asyst Workforce asd/input_Password_inp_lgn_passwor"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-03 14:40:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-03 14:40:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_Asyst Workforce asd/button_Login")): Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-03 14:40:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-03 14:40:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/span_Base Data (2)")): Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data (2)' is clicked on
+
+2018-12-03 14:40:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data (2)' is clicked on
+
+2018-12-03 14:40:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_WorkForce Management System As/span_Employee"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-03 14:40:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-03 14:40:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Employee")): Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-03 14:40:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-03 14:40:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_WorkForce Management System As/span_Shift Type"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is visible
+
+2018-12-03 14:40:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is visible
+
+2018-12-03 14:40:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Shift Type")): Object: 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is clicked on
+
+2018-12-03 14:40:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is clicked on
+
+2018-12-03 14:40:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_WorkForce Management System As/input_Shift Type_inp_shift_sea"), "0200"): Text '0200' is set on object 'Object Repository/Page_WorkForce Management System As/input_Shift Type_inp_shift_sea'
+
+2018-12-03 14:40:53 - [MESSAGE][PASSED] - Text '0200' is set on object 'Object Repository/Page_WorkForce Management System As/input_Shift Type_inp_shift_sea'
+
+2018-12-03 14:40:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/span_Search (1)")): Object: 'Object Repository/Page_WorkForce Management System As/span_Search (1)' is clicked on
+
+2018-12-03 14:40:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Search (1)' is clicked on
+
+2018-12-03 14:40:53 - [TEST_STEP][PASSED] - verifyTextPresent("0200", true): Text '0200' is present on page  using regular expression
+
+2018-12-03 14:40:53 - [MESSAGE][PASSED] - Text '0200' is present on page  using regular expression
+
+2018-12-03 14:40:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-03 14:40:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Base Data - Shift Type/06 Filter Pagination/54 Filter Number of Page" classname="Test Cases/Base Data - Shift Type/06 Filter Pagination/54 Filter Number of Page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Base Data - Shift Type/06 Filter Pagination/54 Filter Number of Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_WorkForce Management System As/a_3' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_WorkForce Management System As/a_3' located by 'By.xpath: (//a[@id='lnk_emp_page'])[3]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 54 Filter Number of Page.run(54 Filter Number of Page:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543822798681.run(TempTestSuite1543822798681.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-03 14:40:54 - [TEST_CASE][FAILED] - Test Cases/Base Data - Shift Type/06 Filter Pagination/54 Filter Number of Page: Test Cases/Base Data - Shift Type/06 Filter Pagination/54 Filter Number of Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_WorkForce Management System As/a_3' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_WorkForce Management System As/a_3' located by 'By.xpath: (//a[@id='lnk_emp_page'])[3]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 54 Filter Number of Page.run(54 Filter Number of Page:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543822798681.run(TempTestSuite1543822798681.groovy:36)
+
+
+2018-12-03 14:40:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-03 14:40:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-03 14:40:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-03 14:40:56 - [TEST_STEP][PASSED] - navigateToUrl("http://ads.asyst.co.id/login.html"): Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-03 14:41:01 - [MESSAGE][PASSED] - Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-03 14:41:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Asyst Workforce asd/input_Email_inp_lgn_email"), "haris.ilham"): Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-03 14:41:01 - [MESSAGE][PASSED] - Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-03 14:41:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Asyst Workforce asd/input_Password_inp_lgn_passwor"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-03 14:41:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-03 14:41:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Asyst Workforce asd/button_Login")): Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-03 14:41:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-03 14:41:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/span_Base Data (2)")): Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data (2)' is clicked on
+
+2018-12-03 14:41:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data (2)' is clicked on
+
+2018-12-03 14:41:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_WorkForce Management System As/span_Employee"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-03 14:41:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-03 14:41:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/span_Employee")): Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-03 14:41:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-03 14:41:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_WorkForce Management System As/span_Shift Type"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is visible
+
+2018-12-03 14:41:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is visible
+
+2018-12-03 14:41:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Shift Type")): Object: 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is clicked on
+
+2018-12-03 14:41:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is clicked on
+
+2018-12-03 14:41:03 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/a_3")): click(findTestObject("Object Repository/Page_WorkForce Management System As/a_3")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_WorkForce Management System As/a_3' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_WorkForce Management System As/a_3' located by 'By.xpath: (//a[@id='lnk_emp_page'])[3]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 54 Filter Number of Page.run(54 Filter Number of Page:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543822798681.run(TempTestSuite1543822798681.groovy:36)
+
+
+2018-12-03 14:41:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//a[@id='lnk_emp_page'])[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-03 14:41:35 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_WorkForce Management System As/a_3' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_WorkForce Management System As/a_3' located by 'By.xpath: (//a[@id='lnk_emp_page'])[3]' not found)
+[[ATTACHMENT|D:\\ASYST\\project\\ads workforce\\katalon\\Workforce Management\\Reports\\New Test Suite\\20181203_143958\\1543822894657.png]]
+
+2018-12-03 14:41:35 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/a_3")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_WorkForce Management System As/a_3' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_WorkForce Management System As/a_3' located by 'By.xpath: (//a[@id='lnk_emp_page'])[3]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 54 Filter Number of Page.run(54 Filter Number of Page:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543822798681.run(TempTestSuite1543822798681.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-03 14:40:54 - [TEST_CASE][FAILED] - Test Cases/Base Data - Shift Type/06 Filter Pagination/54 Filter Number of Page: Test Cases/Base Data - Shift Type/06 Filter Pagination/54 Filter Number of Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_WorkForce Management System As/a_3' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_WorkForce Management System As/a_3' located by 'By.xpath: (//a[@id='lnk_emp_page'])[3]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 54 Filter Number of Page.run(54 Filter Number of Page:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543822798681.run(TempTestSuite1543822798681.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Base Data - Shift Type/06 Filter Pagination/55 Filter Next Navigation" classname="Test Cases/Base Data - Shift Type/06 Filter Pagination/55 Filter Next Navigation" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Base Data - Shift Type/06 Filter Pagination/55 Filter Next Navigation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_WorkForce Management System As/a_Page 1 of 3_lnk_shift_next' (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 55 Filter Next Navigation.run(55 Filter Next Navigation:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543822798681.run(TempTestSuite1543822798681.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-03 14:41:35 - [TEST_CASE][FAILED] - Test Cases/Base Data - Shift Type/06 Filter Pagination/55 Filter Next Navigation: Test Cases/Base Data - Shift Type/06 Filter Pagination/55 Filter Next Navigation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_WorkForce Management System As/a_Page 1 of 3_lnk_shift_next' (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 55 Filter Next Navigation.run(55 Filter Next Navigation:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543822798681.run(TempTestSuite1543822798681.groovy:36)
+
+
+2018-12-03 14:41:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-03 14:41:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-03 14:41:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-03 14:41:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-03 14:41:38 - [TEST_STEP][PASSED] - navigateToUrl("http://ads.asyst.co.id/login.html"): Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-03 14:41:40 - [MESSAGE][PASSED] - Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-03 14:41:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Asyst Workforce asd/input_Email_inp_lgn_email"), "haris.ilham"): Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-03 14:41:41 - [MESSAGE][PASSED] - Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-03 14:41:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Asyst Workforce asd/input_Password_inp_lgn_passwor"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-03 14:41:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-03 14:41:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_Asyst Workforce asd/button_Login")): Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-03 14:41:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-03 14:41:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/span_Base Data (2)")): Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data (2)' is clicked on
+
+2018-12-03 14:41:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data (2)' is clicked on
+
+2018-12-03 14:41:42 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_WorkForce Management System As/span_Employee"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-03 14:41:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-03 14:41:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/span_Employee")): Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-03 14:41:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-03 14:41:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_WorkForce Management System As/span_Shift Type"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is visible
+
+2018-12-03 14:41:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is visible
+
+2018-12-03 14:41:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/span_Shift Type")): Object: 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is clicked on
+
+2018-12-03 14:41:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Shift Type' is clicked on
+
+2018-12-03 14:41:43 - [TEST_STEP][FAILED] - click(findTestObject("Page_WorkForce Management System As/a_Page 1 of 3_lnk_shift_next")): click(findTestObject("Page_WorkForce Management System As/a_Page 1 of 3_lnk_shift_next")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_WorkForce Management System As/a_Page 1 of 3_lnk_shift_next' (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 55 Filter Next Navigation.run(55 Filter Next Navigation:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543822798681.run(TempTestSuite1543822798681.groovy:36)
+
+
+2018-12-03 14:41:44 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_WorkForce Management System As/a_Page 1 of 3_lnk_shift_next' (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+[[ATTACHMENT|D:\\ASYST\\project\\ads workforce\\katalon\\Workforce Management\\Reports\\New Test Suite\\20181203_143958\\1543822903904.png]]
+
+2018-12-03 14:41:44 - [MESSAGE][FAILED] - click(findTestObject("Page_WorkForce Management System As/a_Page 1 of 3_lnk_shift_next")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_WorkForce Management System As/a_Page 1 of 3_lnk_shift_next' (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 55 Filter Next Navigation.run(55 Filter Next Navigation:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543822798681.run(TempTestSuite1543822798681.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-03 14:41:35 - [TEST_CASE][FAILED] - Test Cases/Base Data - Shift Type/06 Filter Pagination/55 Filter Next Navigation: Test Cases/Base Data - Shift Type/06 Filter Pagination/55 Filter Next Navigation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_WorkForce Management System As/a_Page 1 of 3_lnk_shift_next' (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 55 Filter Next Navigation.run(55 Filter Next Navigation:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543822798681.run(TempTestSuite1543822798681.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Base Data - Shift Type/06 Filter Pagination/56 Filter Previous Navigation" classname="Test Cases/Base Data - Shift Type/06 Filter Pagination/56 Filter Previous Navigation" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Base Data - Shift Type/06 Filter Pagination/56 Filter Previous Navigation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_WorkForce Management System As/a_Page 2 of 3_lnk_shift_prev' (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 56 Filter Previous Navigation.run(56 Filter Previous Navigation:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543822798681.run(TempTestSuite1543822798681.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-03 14:41:44 - [TEST_CASE][FAILED] - Test Cases/Base Data - Shift Type/06 Filter Pagination/56 Filter Previous Navigation: Test Cases/Base Data - Shift Type/06 Filter Pagination/56 Filter Previous Navigation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_WorkForce Management System As/a_Page 2 of 3_lnk_shift_prev' (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 56 Filter Previous Navigation.run(56 Filter Previous Navigation:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543822798681.run(TempTestSuite1543822798681.groovy:36)
+
+
+2018-12-03 14:41:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-03 14:41:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-03 14:41:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-03 14:41:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-03 14:41:47 - [TEST_STEP][PASSED] - navigateToUrl("http://ads.asyst.co.id/login.html"): Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-03 14:41:49 - [MESSAGE][PASSED] - Navigate to 'http://ads.asyst.co.id/login.html' successfully
+
+2018-12-03 14:41:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Asyst Workforce asd/input_Email_inp_lgn_email"), "haris.ilham"): Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-03 14:41:50 - [MESSAGE][PASSED] - Text 'haris.ilham' is set on object 'Object Repository/Page_Asyst Workforce asd/input_Email_inp_lgn_email'
+
+2018-12-03 14:41:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Asyst Workforce asd/input_Password_inp_lgn_passwor"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-03 14:41:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Asyst Workforce asd/input_Password_inp_lgn_passwor'
+
+2018-12-03 14:41:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_Asyst Workforce asd/button_Login")): Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-03 14:41:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Asyst Workforce asd/button_Login' is clicked on
+
+2018-12-03 14:41:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/span_Base Data (2)")): Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data (2)' is clicked on
+
+2018-12-03 14:41:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Base Data (2)' is clicked on
+
+2018-12-03 14:41:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_WorkForce Management System As/span_Employee"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-03 14:41:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Employee' is visible
+
+2018-12-03 14:41:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/span_Employee")): Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-03 14:41:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Employee' is clicked on
+
+2018-12-03 14:41:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_WorkForce Management System As/span_Employee Information"), 50): Object 'Object Repository/Page_WorkForce Management System As/span_Employee Information' is visible
+
+2018-12-03 14:41:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_WorkForce Management System As/span_Employee Information' is visible
+
+2018-12-03 14:41:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkForce Management System As/span_Employee Information")): Object: 'Object Repository/Page_WorkForce Management System As/span_Employee Information' is clicked on
+
+2018-12-03 14:41:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/span_Employee Information' is clicked on
+
+2018-12-03 14:41:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_WorkForce Management System As/a_3")): Object: 'Object Repository/Page_WorkForce Management System As/a_3' is clicked on
+
+2018-12-03 14:41:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkForce Management System As/a_3' is clicked on
+
+2018-12-03 14:41:52 - [TEST_STEP][FAILED] - click(findTestObject("Page_WorkForce Management System As/a_Page 2 of 3_lnk_shift_prev")): click(findTestObject("Page_WorkForce Management System As/a_Page 2 of 3_lnk_shift_prev")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_WorkForce Management System As/a_Page 2 of 3_lnk_shift_prev' (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 56 Filter Previous Navigation.run(56 Filter Previous Navigation:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543822798681.run(TempTestSuite1543822798681.groovy:36)
+
+
+2018-12-03 14:41:53 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_WorkForce Management System As/a_Page 2 of 3_lnk_shift_prev' (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+[[ATTACHMENT|D:\\ASYST\\project\\ads workforce\\katalon\\Workforce Management\\Reports\\New Test Suite\\20181203_143958\\1543822912725.png]]
+
+2018-12-03 14:41:53 - [MESSAGE][FAILED] - click(findTestObject("Page_WorkForce Management System As/a_Page 2 of 3_lnk_shift_prev")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_WorkForce Management System As/a_Page 2 of 3_lnk_shift_prev' (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 56 Filter Previous Navigation.run(56 Filter Previous Navigation:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543822798681.run(TempTestSuite1543822798681.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-03 14:41:44 - [TEST_CASE][FAILED] - Test Cases/Base Data - Shift Type/06 Filter Pagination/56 Filter Previous Navigation: Test Cases/Base Data - Shift Type/06 Filter Pagination/56 Filter Previous Navigation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_WorkForce Management System As/a_Page 2 of 3_lnk_shift_prev' (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 56 Filter Previous Navigation.run(56 Filter Previous Navigation:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543822798681.run(TempTestSuite1543822798681.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-03 14:40:00 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/Base Data - Shift Type/06 Filter Pagination/54 Filter Number of Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_WorkForce Management System As/a_3' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_WorkForce Management System As/a_3' located by 'By.xpath: (//a[@id='lnk_emp_page'])[3]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 54 Filter Number of Page.run(54 Filter Number of Page:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543822798681.run(TempTestSuite1543822798681.groovy:36)]]></system-out>
+      <system-err><![CDATA[2018-12-03 14:40:00 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/Base Data - Shift Type/06 Filter Pagination/54 Filter Number of Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_WorkForce Management System As/a_3' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_WorkForce Management System As/a_3' located by 'By.xpath: (//a[@id='lnk_emp_page'])[3]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 54 Filter Number of Page.run(54 Filter Number of Page:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543822798681.run(TempTestSuite1543822798681.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

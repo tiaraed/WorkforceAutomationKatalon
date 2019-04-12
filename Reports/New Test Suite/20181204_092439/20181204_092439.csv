@@ -1,0 +1,136 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Chrome 70.0.3538.110,,2018-12-04 09:24:41,2018-12-04 09:25:51,"1m - 9,986s",FAILED
+,,,,,,
+Test Cases/Base Data - Qualification/01 Create Qualification/Positive/57 Add New Qualification Data,Chrome 70.0.3538.110,,2018-12-04 09:24:42,2018-12-04 09:24:57,"15,248s",FAILED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-04 09:24:42,2018-12-04 09:24:47,"4,588s",PASSED
+"navigateToUrl(""http://ads.asyst.co.id/login.html"")",Chrome 70.0.3538.110,,2018-12-04 09:24:47,2018-12-04 09:24:49,"1,751s",PASSED
+"setText(findTestObject(""Page_Asyst Workforce asd/input_Email_inp_lgn_email""), ""haris.ilham"")",Chrome 70.0.3538.110,,2018-12-04 09:24:49,2018-12-04 09:24:49,"0,192s",PASSED
+"setEncryptedText(findTestObject(""Page_Asyst Workforce asd/input_Password_inp_lgn_passwor""), ""iGDxf8hSRT4="")",Chrome 70.0.3538.110,,2018-12-04 09:24:49,2018-12-04 09:24:49,"0,445s",PASSED
+"click(findTestObject(""Page_Asyst Workforce asd/button_Login""))",Chrome 70.0.3538.110,,2018-12-04 09:24:49,2018-12-04 09:24:54,"4,470s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/span_Base Data""))",Chrome 70.0.3538.110,,2018-12-04 09:24:54,2018-12-04 09:24:54,"0,097s",PASSED
+"waitForElementVisible(findTestObject(""Page_WorkForce Management System As/span_Employee""), 50)",Chrome 70.0.3538.110,,2018-12-04 09:24:54,2018-12-04 09:24:54,"0,589s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/span_Employee""))",Chrome 70.0.3538.110,,2018-12-04 09:24:54,2018-12-04 09:24:54,"0,079s",PASSED
+"waitForElementVisible(findTestObject(""Page_WorkForce Management System As/span_Qualification""), 50)",Chrome 70.0.3538.110,,2018-12-04 09:24:54,2018-12-04 09:24:55,"0,575s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/span_Qualification""))",Chrome 70.0.3538.110,,2018-12-04 09:24:55,2018-12-04 09:24:55,"0,084s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/button_Add New (2)""))",Chrome 70.0.3538.110,,2018-12-04 09:24:55,2018-12-04 09:24:56,"0,716s",PASSED
+"setText(findTestObject(""Page_WorkForce Management System As/input__inp_qua_code""), ""AAAFUNCTION"")",Chrome 70.0.3538.110,,2018-12-04 09:24:56,2018-12-04 09:24:56,"0,394s",PASSED
+"setText(findTestObject(""Page_WorkForce Management System As/input__inp_qua_name""), ""AAAFUNCTION"")",Chrome 70.0.3538.110,,2018-12-04 09:24:56,2018-12-04 09:24:56,"0,154s",PASSED
+"setText(findTestObject(""Page_WorkForce Management System As/input_Qualification_dual-listb""), ""EDIT"")",Chrome 70.0.3538.110,,2018-12-04 09:24:56,2018-12-04 09:24:56,"0,135s",PASSED
+"click(findTestObject(""Page_WorkForce Management System As/li_CGKPB_BI_CKIEDIT""))",Chrome 70.0.3538.110,,2018-12-04 09:24:56,2018-12-04 09:24:57,"0,502s",FAILED
+,,,,,,
+Test Cases/Base Data - Qualification/01 Create Qualification/Positive/58 Add New Qualification Data with Many Function,Chrome 70.0.3538.110,,2018-12-04 09:24:57,2018-12-04 09:25:09,"12,075s",PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-04 09:24:57,2018-12-04 09:25:00,"3,060s",PASSED
+"navigateToUrl(""http://ads.asyst.co.id/login.html"")",Chrome 70.0.3538.110,,2018-12-04 09:25:00,2018-12-04 09:25:03,"3,096s",PASSED
+"setText(findTestObject(""Page_Asyst Workforce asd/input_Email_inp_lgn_email""), ""haris.ilham"")",Chrome 70.0.3538.110,,2018-12-04 09:25:03,2018-12-04 09:25:04,"0,222s",PASSED
+"setEncryptedText(findTestObject(""Page_Asyst Workforce asd/input_Password_inp_lgn_passwor""), ""iGDxf8hSRT4="")",Chrome 70.0.3538.110,,2018-12-04 09:25:04,2018-12-04 09:25:04,"0,114s",PASSED
+"click(findTestObject(""Page_Asyst Workforce asd/button_Login""))",Chrome 70.0.3538.110,,2018-12-04 09:25:04,2018-12-04 09:25:04,"0,600s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Base Data""))",Chrome 70.0.3538.110,,2018-12-04 09:25:04,2018-12-04 09:25:04,"0,100s",PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Employee""), 50)",Chrome 70.0.3538.110,,2018-12-04 09:25:04,2018-12-04 09:25:05,"0,558s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Employee""))",Chrome 70.0.3538.110,,2018-12-04 09:25:05,2018-12-04 09:25:05,"0,119s",PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Qualification""), 50)",Chrome 70.0.3538.110,,2018-12-04 09:25:05,2018-12-04 09:25:06,"0,565s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Qualification""))",Chrome 70.0.3538.110,,2018-12-04 09:25:06,2018-12-04 09:25:06,"0,075s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/button_Add New (2)""))",Chrome 70.0.3538.110,,2018-12-04 09:25:06,2018-12-04 09:25:06,"0,698s",PASSED
+"setText(findTestObject(""Object Repository/Page_WorkForce Management System As/input__inp_qua_code""), ""AABFUNCTION"")",Chrome 70.0.3538.110,,2018-12-04 09:25:06,2018-12-04 09:25:07,"0,400s",PASSED
+"setText(findTestObject(""Object Repository/Page_WorkForce Management System As/input__inp_qua_name""), ""AAABFUNCTION"")",Chrome 70.0.3538.110,,2018-12-04 09:25:07,2018-12-04 09:25:07,"0,152s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/li_CGKAS_MPL_ATT""))",Chrome 70.0.3538.110,,2018-12-04 09:25:07,2018-12-04 09:25:07,"0,119s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/button_add""))",Chrome 70.0.3538.110,,2018-12-04 09:25:07,2018-12-04 09:25:07,"0,128s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/li_CGKAS_MPL_LM""))",Chrome 70.0.3538.110,,2018-12-04 09:25:07,2018-12-04 09:25:07,"0,074s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/button_add""))",Chrome 70.0.3538.110,,2018-12-04 09:25:07,2018-12-04 09:25:07,"0,092s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/li_CGKAS_MPL_BTT""))",Chrome 70.0.3538.110,,2018-12-04 09:25:07,2018-12-04 09:25:07,"0,144s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/button_add""))",Chrome 70.0.3538.110,,2018-12-04 09:25:07,2018-12-04 09:25:08,"0,142s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/li_CGKAS_MPL_RAMP""))",Chrome 70.0.3538.110,,2018-12-04 09:25:08,2018-12-04 09:25:08,"0,074s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/button_add""))",Chrome 70.0.3538.110,,2018-12-04 09:25:08,2018-12-04 09:25:08,"0,070s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Save (2)""))",Chrome 70.0.3538.110,,2018-12-04 09:25:08,2018-12-04 09:25:08,"0,417s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/input_Data has been Input succ""))",Chrome 70.0.3538.110,,2018-12-04 09:25:08,2018-12-04 09:25:08,"0,110s",PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-04 09:25:08,2018-12-04 09:25:09,"0,727s",PASSED
+,,,,,,
+Test Cases/Base Data - Qualification/01 Create Qualification/Positive/59 Add New Qualification Data with All Function,Chrome 70.0.3538.110,,2018-12-04 09:25:09,2018-12-04 09:25:21,"11,755s",PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-04 09:25:09,2018-12-04 09:25:11,"2,203s",PASSED
+"navigateToUrl(""http://ads.asyst.co.id/login.html"")",Chrome 70.0.3538.110,,2018-12-04 09:25:11,2018-12-04 09:25:14,"2,693s",PASSED
+"setText(findTestObject(""Page_Asyst Workforce asd/input_Email_inp_lgn_email""), ""haris.ilham"")",Chrome 70.0.3538.110,,2018-12-04 09:25:14,2018-12-04 09:25:14,"0,218s",PASSED
+"setEncryptedText(findTestObject(""Page_Asyst Workforce asd/input_Password_inp_lgn_passwor""), ""iGDxf8hSRT4="")",Chrome 70.0.3538.110,,2018-12-04 09:25:14,2018-12-04 09:25:14,"0,117s",PASSED
+"click(findTestObject(""Page_Asyst Workforce asd/button_Login""))",Chrome 70.0.3538.110,,2018-12-04 09:25:14,2018-12-04 09:25:15,"0,610s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Base Data""))",Chrome 70.0.3538.110,,2018-12-04 09:25:15,2018-12-04 09:25:15,"0,112s",PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Employee""), 50)",Chrome 70.0.3538.110,,2018-12-04 09:25:15,2018-12-04 09:25:16,"0,565s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Employee""))",Chrome 70.0.3538.110,,2018-12-04 09:25:16,2018-12-04 09:25:16,"0,079s",PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Qualification""), 50)",Chrome 70.0.3538.110,,2018-12-04 09:25:16,2018-12-04 09:25:16,"0,568s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Qualification""))",Chrome 70.0.3538.110,,2018-12-04 09:25:16,2018-12-04 09:25:16,"0,103s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/button_Add New (2)""))",Chrome 70.0.3538.110,,2018-12-04 09:25:16,2018-12-04 09:25:17,"0,544s",PASSED
+"setText(findTestObject(""Object Repository/Page_WorkForce Management System As/input__inp_qua_code""), ""AAACFUNCTION"")",Chrome 70.0.3538.110,,2018-12-04 09:25:17,2018-12-04 09:25:17,"0,418s",PASSED
+"setText(findTestObject(""Object Repository/Page_WorkForce Management System As/input__inp_qua_name""), ""AAACFUNCTION"")",Chrome 70.0.3538.110,,2018-12-04 09:25:17,2018-12-04 09:25:18,"0,284s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/button_add all""))",Chrome 70.0.3538.110,,2018-12-04 09:25:18,2018-12-04 09:25:18,"0,175s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Save (2)""))",Chrome 70.0.3538.110,,2018-12-04 09:25:18,2018-12-04 09:25:20,"2,060s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/input_Data has been Input succ""))",Chrome 70.0.3538.110,,2018-12-04 09:25:20,2018-12-04 09:25:20,"0,105s",PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-04 09:25:20,2018-12-04 09:25:21,"0,721s",PASSED
+,,,,,,
+Test Cases/Base Data - Qualification/01 Create Qualification/Positive/60 Add New Qualification Data with Remove Many Function,Chrome 70.0.3538.110,,2018-12-04 09:25:21,2018-12-04 09:25:32,"10,818s",PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-04 09:25:21,2018-12-04 09:25:23,"2,207s",PASSED
+"navigateToUrl(""http://ads.asyst.co.id/login.html"")",Chrome 70.0.3538.110,,2018-12-04 09:25:23,2018-12-04 09:25:26,"2,658s",PASSED
+"setText(findTestObject(""Page_Asyst Workforce asd/input_Email_inp_lgn_email""), ""haris.ilham"")",Chrome 70.0.3538.110,,2018-12-04 09:25:26,2018-12-04 09:25:26,"0,133s",PASSED
+"setEncryptedText(findTestObject(""Page_Asyst Workforce asd/input_Password_inp_lgn_passwor""), ""iGDxf8hSRT4="")",Chrome 70.0.3538.110,,2018-12-04 09:25:26,2018-12-04 09:25:26,"0,100s",PASSED
+"click(findTestObject(""Page_Asyst Workforce asd/button_Login""))",Chrome 70.0.3538.110,,2018-12-04 09:25:26,2018-12-04 09:25:27,"0,668s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Base Data""))",Chrome 70.0.3538.110,,2018-12-04 09:25:27,2018-12-04 09:25:27,"0,121s",PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Employee""), 50)",Chrome 70.0.3538.110,,2018-12-04 09:25:27,2018-12-04 09:25:27,"0,562s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Employee""))",Chrome 70.0.3538.110,,2018-12-04 09:25:27,2018-12-04 09:25:28,"0,079s",PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Qualification""), 50)",Chrome 70.0.3538.110,,2018-12-04 09:25:28,2018-12-04 09:25:28,"0,565s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Qualification""))",Chrome 70.0.3538.110,,2018-12-04 09:25:28,2018-12-04 09:25:28,"0,198s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/button_Add New (2)""))",Chrome 70.0.3538.110,,2018-12-04 09:25:28,2018-12-04 09:25:29,"0,461s",PASSED
+"setText(findTestObject(""Object Repository/Page_WorkForce Management System As/input__inp_qua_code""), ""AAADFUNCTION"")",Chrome 70.0.3538.110,,2018-12-04 09:25:29,2018-12-04 09:25:29,"0,374s",PASSED
+"setText(findTestObject(""Object Repository/Page_WorkForce Management System As/input__inp_qua_name""), ""AAADFUNCTION"")",Chrome 70.0.3538.110,,2018-12-04 09:25:29,2018-12-04 09:25:29,"0,154s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/li_CGKAS_MPL_ATT""))",Chrome 70.0.3538.110,,2018-12-04 09:25:29,2018-12-04 09:25:29,"0,099s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/button_add""))",Chrome 70.0.3538.110,,2018-12-04 09:25:29,2018-12-04 09:25:29,"0,110s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/li_CGKAS_MPL_LM""))",Chrome 70.0.3538.110,,2018-12-04 09:25:29,2018-12-04 09:25:30,"0,076s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/button_add""))",Chrome 70.0.3538.110,,2018-12-04 09:25:30,2018-12-04 09:25:30,"0,072s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/li_CGKAS_MPL_BTT""))",Chrome 70.0.3538.110,,2018-12-04 09:25:30,2018-12-04 09:25:30,"0,131s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/button_add""))",Chrome 70.0.3538.110,,2018-12-04 09:25:30,2018-12-04 09:25:30,"0,148s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/li_CGKAS_MPL_RAMP""))",Chrome 70.0.3538.110,,2018-12-04 09:25:30,2018-12-04 09:25:30,"0,066s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/button_add""))",Chrome 70.0.3538.110,,2018-12-04 09:25:30,2018-12-04 09:25:30,"0,057s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/li_CGKAS_MPL_ATT""))",Chrome 70.0.3538.110,,2018-12-04 09:25:30,2018-12-04 09:25:30,"0,068s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/button_remove""))",Chrome 70.0.3538.110,,2018-12-04 09:25:30,2018-12-04 09:25:30,"0,076s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/li_CGKAS_MPL_LM""))",Chrome 70.0.3538.110,,2018-12-04 09:25:30,2018-12-04 09:25:30,"0,083s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/button_remove""))",Chrome 70.0.3538.110,,2018-12-04 09:25:30,2018-12-04 09:25:30,"0,068s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/li_CGKAS_MPL_BTT""))",Chrome 70.0.3538.110,,2018-12-04 09:25:30,2018-12-04 09:25:30,"0,065s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/button_remove""))",Chrome 70.0.3538.110,,2018-12-04 09:25:30,2018-12-04 09:25:30,"0,049s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/li_CGKAS_MPL_RAMP""))",Chrome 70.0.3538.110,,2018-12-04 09:25:30,2018-12-04 09:25:31,"0,070s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/button_remove""))",Chrome 70.0.3538.110,,2018-12-04 09:25:31,2018-12-04 09:25:31,"0,064s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Save (2)""))",Chrome 70.0.3538.110,,2018-12-04 09:25:31,2018-12-04 09:25:31,"0,302s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/input_Data has been Input succ""))",Chrome 70.0.3538.110,,2018-12-04 09:25:31,2018-12-04 09:25:31,"0,078s",PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-04 09:25:31,2018-12-04 09:25:32,"0,677s",PASSED
+,,,,,,
+Test Cases/Base Data - Qualification/01 Create Qualification/Positive/61 Add New Qualification Data with Remove All Function,Chrome 70.0.3538.110,,2018-12-04 09:25:32,2018-12-04 09:25:41,"9,515s",PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-04 09:25:32,2018-12-04 09:25:34,"2,333s",PASSED
+"navigateToUrl(""http://ads.asyst.co.id/login.html"")",Chrome 70.0.3538.110,,2018-12-04 09:25:34,2018-12-04 09:25:36,"2,222s",PASSED
+"setText(findTestObject(""Page_Asyst Workforce asd/input_Email_inp_lgn_email""), ""haris.ilham"")",Chrome 70.0.3538.110,,2018-12-04 09:25:36,2018-12-04 09:25:37,"0,129s",PASSED
+"setEncryptedText(findTestObject(""Page_Asyst Workforce asd/input_Password_inp_lgn_passwor""), ""iGDxf8hSRT4="")",Chrome 70.0.3538.110,,2018-12-04 09:25:37,2018-12-04 09:25:37,"0,101s",PASSED
+"click(findTestObject(""Page_Asyst Workforce asd/button_Login""))",Chrome 70.0.3538.110,,2018-12-04 09:25:37,2018-12-04 09:25:37,"0,570s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Base Data""))",Chrome 70.0.3538.110,,2018-12-04 09:25:37,2018-12-04 09:25:37,"0,119s",PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Employee""), 50)",Chrome 70.0.3538.110,,2018-12-04 09:25:37,2018-12-04 09:25:38,"0,554s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Employee""))",Chrome 70.0.3538.110,,2018-12-04 09:25:38,2018-12-04 09:25:38,"0,088s",PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Qualification""), 50)",Chrome 70.0.3538.110,,2018-12-04 09:25:38,2018-12-04 09:25:39,"0,584s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Qualification""))",Chrome 70.0.3538.110,,2018-12-04 09:25:39,2018-12-04 09:25:39,"0,066s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/button_Add New (2)""))",Chrome 70.0.3538.110,,2018-12-04 09:25:39,2018-12-04 09:25:39,"0,490s",PASSED
+"setText(findTestObject(""Object Repository/Page_WorkForce Management System As/input__inp_qua_code""), ""AAAEFUNCTION"")",Chrome 70.0.3538.110,,2018-12-04 09:25:39,2018-12-04 09:25:39,"0,369s",PASSED
+"setText(findTestObject(""Object Repository/Page_WorkForce Management System As/input__inp_qua_name""), ""AAAEFUNCTION"")",Chrome 70.0.3538.110,,2018-12-04 09:25:39,2018-12-04 09:25:40,"0,150s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/button_add all""))",Chrome 70.0.3538.110,,2018-12-04 09:25:40,2018-12-04 09:25:40,"0,209s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/button_remove all""))",Chrome 70.0.3538.110,,2018-12-04 09:25:40,2018-12-04 09:25:40,"0,249s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Save (2)""))",Chrome 70.0.3538.110,,2018-12-04 09:25:40,2018-12-04 09:25:40,"0,307s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/input_Data has been Input succ""))",Chrome 70.0.3538.110,,2018-12-04 09:25:40,2018-12-04 09:25:40,"0,075s",PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-04 09:25:40,2018-12-04 09:25:41,"0,665s",PASSED
+,,,,,,
+Test Cases/Base Data - Qualification/01 Create Qualification/Positive/62 Add New Qualification Data without Function,Chrome 70.0.3538.110,,2018-12-04 09:25:41,2018-12-04 09:25:51,"10,122s",PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-04 09:25:41,2018-12-04 09:25:44,"2,272s",PASSED
+"navigateToUrl(""http://ads.asyst.co.id/login.html"")",Chrome 70.0.3538.110,,2018-12-04 09:25:44,2018-12-04 09:25:46,"2,706s",PASSED
+"setText(findTestObject(""Page_Asyst Workforce asd/input_Email_inp_lgn_email""), ""haris.ilham"")",Chrome 70.0.3538.110,,2018-12-04 09:25:46,2018-12-04 09:25:46,"0,156s",PASSED
+"setEncryptedText(findTestObject(""Page_Asyst Workforce asd/input_Password_inp_lgn_passwor""), ""iGDxf8hSRT4="")",Chrome 70.0.3538.110,,2018-12-04 09:25:46,2018-12-04 09:25:47,"0,142s",PASSED
+"click(findTestObject(""Page_Asyst Workforce asd/button_Login""))",Chrome 70.0.3538.110,,2018-12-04 09:25:47,2018-12-04 09:25:47,"0,648s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Base Data""))",Chrome 70.0.3538.110,,2018-12-04 09:25:47,2018-12-04 09:25:47,"0,093s",PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Employee""), 50)",Chrome 70.0.3538.110,,2018-12-04 09:25:47,2018-12-04 09:25:48,"0,558s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Employee""))",Chrome 70.0.3538.110,,2018-12-04 09:25:48,2018-12-04 09:25:48,"0,097s",PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Qualification""), 50)",Chrome 70.0.3538.110,,2018-12-04 09:25:48,2018-12-04 09:25:49,"0,599s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Qualification""))",Chrome 70.0.3538.110,,2018-12-04 09:25:49,2018-12-04 09:25:49,"0,101s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/button_Add New (2)""))",Chrome 70.0.3538.110,,2018-12-04 09:25:49,2018-12-04 09:25:50,"0,959s",PASSED
+"setText(findTestObject(""Object Repository/Page_WorkForce Management System As/input__inp_qua_code""), ""AAAFFUNCTION"")",Chrome 70.0.3538.110,,2018-12-04 09:25:50,2018-12-04 09:25:50,"0,190s",PASSED
+"setText(findTestObject(""Object Repository/Page_WorkForce Management System As/input__inp_qua_name""), ""AAAFFUNCTION"")",Chrome 70.0.3538.110,,2018-12-04 09:25:50,2018-12-04 09:25:50,"0,269s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/span_Save (2)""))",Chrome 70.0.3538.110,,2018-12-04 09:25:50,2018-12-04 09:25:51,"0,385s",PASSED
+"click(findTestObject(""Object Repository/Page_WorkForce Management System As/input_Data has been Input succ""))",Chrome 70.0.3538.110,,2018-12-04 09:25:51,2018-12-04 09:25:51,"0,080s",PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-04 09:25:51,2018-12-04 09:25:51,"0,674s",PASSED
