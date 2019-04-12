@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>06 Add New Employee Data with Joint date more than Resignation Date</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>1a9687b6-0883-4415-9f50-bf81559fc976</testCaseGuid>
-</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Employee Data with Invalid Type</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9f9ff8d8-472f-4822-b4e2-89cf0f678a73</testCaseGuid>
+</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>05 Add New Employee Data with Invalid type</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>80bb3371-4bf0-40ee-bec7-5ef43fa29f83</testCaseGuid>
-</TestCaseEntity>
