@@ -15,7 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('0 Login/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('3 Base Data/3.1 Employee/3.1.1 Employee Information/Base Data - Employee - Employee Information Menu'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('3 Base Data/3.1 Employee/3.1.1 Employee Information/Base Data - Employee - Employee Information Menu'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_WorkForce Management System As/button_Add New'))
 
@@ -29,9 +30,20 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_WorkForce Manag
     true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_WorkForce Management System As/select_-- Lists Group --UPGPBG'), 
-    'GROUP1', true)
+    'CGKPB_GA_GTE', true)
+
+WebUI.click(findTestObject('Page_WorkForce Management System Asyst/button_Add New function'))
+
+WebUI.selectOptionByValue(findTestObject('Page_WorkForce Management System Asyst/select_-- Lists function --CGKAS_MPL_BTT'), 
+    'CGKAS_MPL_BTT', true)
+
+WebUI.click(findTestObject('Page_WorkForce Management System Asyst/button_Save_function'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Page_WorkForce Management System As/span_Save'))
+
+WebUI.delay(3)
 
 WebUI.verifyTextPresent('Data has been Input succesfully', true)
 
