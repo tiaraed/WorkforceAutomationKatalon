@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add New Employee Data with Function without Start Date and End Date</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>98e01db6-c347-42bd-8be3-449bcbe4eeda</testCaseGuid>
+</TestCaseEntity>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>View Employee List Data</name>
+   <name>Add Employee</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>257b98a5-5369-43dc-b2a8-0087bd07d1f4</testCaseGuid>
+   <testCaseGuid>bd48ee78-adce-492b-8f42-51489ada8cad</testCaseGuid>
 </TestCaseEntity>

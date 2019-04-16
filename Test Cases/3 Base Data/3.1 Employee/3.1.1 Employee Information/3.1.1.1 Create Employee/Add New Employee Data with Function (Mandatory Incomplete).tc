@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>View Employee List Data</name>
+   <name>Add New Employee Data with Function (Mandatory Incomplete)</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>257b98a5-5369-43dc-b2a8-0087bd07d1f4</testCaseGuid>
+   <testCaseGuid>46faa7fb-987b-4ad7-959e-7dea42e6e151</testCaseGuid>
 </TestCaseEntity>
